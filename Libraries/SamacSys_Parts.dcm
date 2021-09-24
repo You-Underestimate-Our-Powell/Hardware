@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRV103U_2K5
+D PWM Low Side Driver (1.5A/3A) for Solenoids, Coils, Valves, Heaters, and Lamps
+K
+F http://www.ti.com/lit/gpn/DRV103
+$ENDCMP
+#
+#End Doc Library

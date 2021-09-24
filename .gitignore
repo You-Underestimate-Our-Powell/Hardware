@@ -1,0 +1,7 @@
+# KiCad generated files
+**/fp-info-cache
+**/debug.log
+**/*.sch-bak
+
+# Library backup files
+**/*.bck
