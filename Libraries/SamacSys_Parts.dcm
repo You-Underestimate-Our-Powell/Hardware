@@ -6,4 +6,28 @@ K
 F http://www.ti.com/lit/gpn/DRV103
 $ENDCMP
 #
+$CMP LTC4372IMS8#TRPBF
+D Power Management Specialized - PMIC Low Icc Ideal Diode Controller w/SHDN
+K
+F https://www.arrow.com/en/products/ltc4372ims8trpbf/analog-devices
+$ENDCMP
+#
+$CMP MAX738ACWE+
+D DC-DC Converter, Step Down 6V to 16V
+K
+F http://docs-emea.rs-online.com/webdocs/0f72/0900766b80f72edc.pdf
+$ENDCMP
+#
+$CMP L4940D2T12-TR
+D L4940D2T12-TR, Low Dropout Voltage Regulator, 1.5A, 12 V, 3-Pin D2PAK
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00000442.pdf
+$ENDCMP
+#
+$CMP PJ-002A
+D CONN PWR JACK 2X5.5MM SOLDER
+K
+F https://www.cui.com/product/resource/digikeypdf/pj-002a.pdf
+$ENDCMP
+#
 #End Doc Library
