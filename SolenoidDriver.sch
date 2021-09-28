@@ -1,0 +1,206 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1900 2300 0    50   Input ~ 0
+GND
+Wire Wire Line
+	1900 2300 2350 2300
+Text Label 2350 2300 2    50   ~ 0
+GND
+Wire Wire Line
+	4550 2300 4400 2300
+Wire Wire Line
+	4400 2300 4400 2550
+Text Label 4400 2550 1    50   ~ 0
+GND
+Text HLabel 6950 2000 2    50   Input ~ 0
+Input
+Wire Wire Line
+	6950 2000 6650 2000
+$Comp
+L Device:R R?
+U 1 1 6157706B
+P 4200 2000
+F 0 "R?" V 3993 2000 50  0000 C CNN
+F 1 "137k" V 4084 2000 50  0000 C CNN
+F 2 "" V 4130 2000 50  0001 C CNN
+F 3 "~" H 4200 2000 50  0001 C CNN
+	1    4200 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 2000 4550 2000
+Wire Wire Line
+	4050 2000 3800 2000
+Text Label 3800 2000 0    50   ~ 0
+GND
+$Comp
+L Device:C C?
+U 1 1 6157796B
+P 3950 2250
+F 0 "C?" V 4100 2300 50  0000 C CNN
+F 1 "C" V 4100 2200 50  0000 C CNN
+F 2 "" H 3988 2100 50  0001 C CNN
+F 3 "~" H 3950 2250 50  0001 C CNN
+	1    3950 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 2100 4100 2250
+Wire Wire Line
+	4100 2100 4550 2100
+Wire Wire Line
+	3800 2250 3650 2250
+Text Label 3650 2600 0    50   ~ 0
+GND
+Wire Wire Line
+	4250 2200 4250 2600
+Wire Wire Line
+	4250 2600 4100 2600
+$Comp
+L Device:R R?
+U 1 1 61579346
+P 3950 2600
+F 0 "R?" V 4050 2650 50  0000 C CNN
+F 1 "R" V 4050 2550 50  0000 C CNN
+F 2 "" V 3880 2600 50  0001 C CNN
+F 3 "~" H 3950 2600 50  0001 C CNN
+	1    3950 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 2600 3650 2600
+Text Label 3650 2250 0    50   ~ 0
+GND
+$Comp
+L Capstone:DRV103U_2K5 IC?
+U 1 1 61573BB1
+P 4550 2000
+F 0 "IC?" H 5600 2265 50  0000 C CNN
+F 1 "DRV103U_2K5" H 5600 2174 50  0000 C CNN
+F 2 "SOIC127P600X175-8N" H 6500 2100 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/DRV103" H 6500 2000 50  0001 L CNN
+F 4 "PWM Low Side Driver (1.5A/3A) for Solenoids, Coils, Valves, Heaters, and Lamps" H 6500 1900 50  0001 L CNN "Description"
+F 5 "1.75" H 6500 1800 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 6500 1700 50  0001 L CNN "Manufacturer_Name"
+F 7 "DRV103U/2K5" H 6500 1600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-DRV103U/2K5" H 6500 1500 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV103U-2K5?qs=VBduBm9rCJTBf6AcpyRzNg%3D%3D" H 6500 1400 50  0001 L CNN "Mouser Price/Stock"
+F 10 "DRV103U/2K5" H 6500 1300 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/drv103u2k5/texas-instruments" H 6500 1200 50  0001 L CNN "Arrow Price/Stock"
+	1    4550 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2200 4550 2200
+$Comp
+L Capstone:SD0805S020S1R0 D?
+U 1 1 6157A8ED
+P 7700 2750
+F 0 "D?" H 8300 2900 50  0000 C CNN
+F 1 "SD0805S020S1R0" H 7850 2900 50  0000 C CNN
+F 2 "DIOM1613X100N" H 8200 2900 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/SD0805S020S1R0.pdf" H 8200 2800 50  0001 L CNN
+F 4 "AVX - SD0805S020S1R0 - DIODE, SCHOTTKY, 1A, 20V, SOD-323" H 8200 2700 50  0001 L CNN "Description"
+F 5 "1" H 8200 2600 50  0001 L CNN "Height"
+F 6 "AVX" H 8200 2500 50  0001 L CNN "Manufacturer_Name"
+F 7 "SD0805S020S1R0" H 8200 2400 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "581-SD0805S020S1R0" H 8200 2300 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/AVX/SD0805S020S1R0?qs=jCA%252BPfw4LHbpkAoSnwrdjw%3D%3D" H 8200 2200 50  0001 L CNN "Mouser Price/Stock"
+F 10 "SD0805S020S1R0" H 8200 2100 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/sd0805s020s1r0/avx?region=nac" H 8200 2000 50  0001 L CNN "Arrow Price/Stock"
+	1    7700 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6650 2300 6850 2300
+Wire Wire Line
+	6850 2300 6850 2750
+Wire Wire Line
+	6850 2750 7000 2750
+Wire Wire Line
+	6850 2750 6850 3250
+Connection ~ 6850 2750
+Text HLabel 8250 3250 2    50   Output ~ 0
+Control
+Wire Wire Line
+	6650 2200 6950 2200
+Wire Wire Line
+	6950 2200 6950 2350
+Wire Wire Line
+	6950 2350 7000 2350
+Wire Wire Line
+	7300 2350 7650 2350
+Text Label 7650 2350 2    50   ~ 0
+GND
+Wire Wire Line
+	6950 2350 6950 2500
+Wire Wire Line
+	6950 2500 7750 2500
+Wire Wire Line
+	7750 2500 7750 2750
+Wire Wire Line
+	7750 2750 7600 2750
+Connection ~ 6950 2350
+$Comp
+L Device:CP C?
+U 1 1 6157E351
+P 7150 2350
+F 0 "C?" V 7000 2300 50  0000 C CNN
+F 1 "1u" V 7000 2400 50  0000 C CNN
+F 2 "" H 7188 2200 50  0001 C CNN
+F 3 "~" H 7150 2350 50  0001 C CNN
+	1    7150 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 615819DE
+P 7500 2100
+F 0 "D?" H 7493 2317 50  0000 C CNN
+F 1 "LED" H 7493 2226 50  0000 C CNN
+F 2 "" H 7500 2100 50  0001 C CNN
+F 3 "~" H 7500 2100 50  0001 C CNN
+	1    7500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6158256B
+P 7750 2250
+F 0 "R?" H 7820 2296 50  0000 L CNN
+F 1 "R" H 7820 2205 50  0000 L CNN
+F 2 "" V 7680 2250 50  0001 C CNN
+F 3 "~" H 7750 2250 50  0001 C CNN
+	1    7750 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 2500 7750 2400
+Connection ~ 7750 2500
+Wire Wire Line
+	7750 2100 7650 2100
+Wire Wire Line
+	7350 2100 6650 2100
+Wire Wire Line
+	7750 2750 8250 2750
+Connection ~ 7750 2750
+Text HLabel 8250 2750 2    50   Output ~ 0
+VS
+Wire Wire Line
+	6850 3250 8250 3250
+Text Notes 4800 2500 0    50   ~ 0
+NOTE: Driver is negative logic
+$EndSCHEMATC

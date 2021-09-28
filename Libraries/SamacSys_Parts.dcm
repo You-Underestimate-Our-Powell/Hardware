@@ -2,32 +2,50 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP DRV103U_2K5
 D PWM Low Side Driver (1.5A/3A) for Solenoids, Coils, Valves, Heaters, and Lamps
-K
 F http://www.ti.com/lit/gpn/DRV103
+$ENDCMP
+#
+$CMP L4940D2T12-TR
+D L4940D2T12-TR, Low Dropout Voltage Regulator, 1.5A, 12 V, 3-Pin D2PAK
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00000442.pdf
 $ENDCMP
 #
 $CMP LTC4372IMS8#TRPBF
 D Power Management Specialized - PMIC Low Icc Ideal Diode Controller w/SHDN
-K
 F https://www.arrow.com/en/products/ltc4372ims8trpbf/analog-devices
 $ENDCMP
 #
 $CMP MAX738ACWE+
 D DC-DC Converter, Step Down 6V to 16V
-K
 F http://docs-emea.rs-online.com/webdocs/0f72/0900766b80f72edc.pdf
-$ENDCMP
-#
-$CMP L4940D2T12-TR
-D L4940D2T12-TR, Low Dropout Voltage Regulator, 1.5A, 12 V, 3-Pin D2PAK
-K
-F http://www.st.com/web/en/resource/technical/document/datasheet/CD00000442.pdf
 $ENDCMP
 #
 $CMP PJ-002A
 D CONN PWR JACK 2X5.5MM SOLDER
-K
 F https://www.cui.com/product/resource/digikeypdf/pj-002a.pdf
+$ENDCMP
+#
+$CMP PRT-16763
+D Headers & Wire Housings Extended GPIO Female Header - 2x20 Pin (16mm/7.30mm)
+F https://cdn.sparkfun.com/assets/0/b/8/5/2/DS-16763-2_X_20_Pin_Extended_GPIO_Header_-_Female_-_16mm_7.30mm.pdf
+$ENDCMP
+#
+$CMP SD0805S020S1R0
+D AVX - SD0805S020S1R0 - DIODE, SCHOTTKY, 1A, 20V, SOD-323
+K
+F https://componentsearchengine.com/Datasheets/1/SD0805S020S1R0.pdf
+$ENDCMP
+#
+$CMP SRN8040TA-101M
+D fixed Inductor 100uH 1.1A non-Shielded
+K
+F http://www.bourns.com/docs/Product-Datasheets/SRN8040TA.pdf
+$ENDCMP
+#
+$CMP BSC026NE2LS5ATMA1
+D Infineon BSC026NE2LS5ATMA1 N-channel MOSFET, 82 A, 25 V OptiMOS 5, 8-Pin SuperSO
+K
+F https://componentsearchengine.com/Datasheets/2/BSC026NE2LS5ATMA1.pdf
 $ENDCMP
 #
 #End Doc Library
