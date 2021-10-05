@@ -1,8 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 691137710002
+D Wurth Elektronik WR-TBL Series 5mm Pitch, 2 Way, PCB Terminal Block, Through Hole
+F https://katalog.we-online.com/em/datasheet/691137710002.pdf
+$ENDCMP
+#
+$CMP BSC026NE2LS5ATMA1
+D Infineon BSC026NE2LS5ATMA1 N-channel MOSFET, 82 A, 25 V OptiMOS 5, 8-Pin SuperSO
+F https://componentsearchengine.com/Datasheets/2/BSC026NE2LS5ATMA1.pdf
+$ENDCMP
+#
 $CMP DRV103U_2K5
 D PWM Low Side Driver (1.5A/3A) for Solenoids, Coils, Valves, Heaters, and Lamps
 F http://www.ti.com/lit/gpn/DRV103
+$ENDCMP
+#
+$CMP ESDALC6V1-1U2
+D STMicroelectronics ESDALC6V1-1U2, Uni-Directional TVS Diode, 20W, 2-Pin ST-0201
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00212838.pdf
 $ENDCMP
 #
 $CMP L4940D2T12-TR
@@ -32,32 +47,12 @@ $ENDCMP
 #
 $CMP SD0805S020S1R0
 D AVX - SD0805S020S1R0 - DIODE, SCHOTTKY, 1A, 20V, SOD-323
-K
 F https://componentsearchengine.com/Datasheets/1/SD0805S020S1R0.pdf
 $ENDCMP
 #
 $CMP SRN8040TA-101M
 D fixed Inductor 100uH 1.1A non-Shielded
-K
 F http://www.bourns.com/docs/Product-Datasheets/SRN8040TA.pdf
-$ENDCMP
-#
-$CMP BSC026NE2LS5ATMA1
-D Infineon BSC026NE2LS5ATMA1 N-channel MOSFET, 82 A, 25 V OptiMOS 5, 8-Pin SuperSO
-K
-F https://componentsearchengine.com/Datasheets/2/BSC026NE2LS5ATMA1.pdf
-$ENDCMP
-#
-$CMP 691137710002
-D Wurth Elektronik WR-TBL Series 5mm Pitch, 2 Way, PCB Terminal Block, Through Hole
-K
-F https://katalog.we-online.com/em/datasheet/691137710002.pdf
-$ENDCMP
-#
-$CMP ESDALC6V1-1U2
-D STMicroelectronics ESDALC6V1-1U2, Uni-Directional TVS Diode, 20W, 2-Pin ST-0201
-K
-F http://www.st.com/web/en/resource/technical/document/datasheet/CD00212838.pdf
 $ENDCMP
 #
 #End Doc Library

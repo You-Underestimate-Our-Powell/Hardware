@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
@@ -13,8 +13,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 6950 2000 2    50   Input ~ 0
-Input
+Text HLabel 7050 1750 2    50   Input ~ 0
+Solenoid_Driver_Input
 Wire Wire Line
 	6950 2000 6650 2000
 $Comp
@@ -146,7 +146,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 2750 8250 2750
 Connection ~ 7750 2750
-Text HLabel 8250 2750 2    50   Output ~ 0
+Text HLabel 8250 2750 2    50   BiDi ~ 0
 VS
 Wire Wire Line
 	6850 3250 8250 3250
@@ -244,4 +244,23 @@ Wire Wire Line
 	3550 2900 4400 2900
 Wire Wire Line
 	4400 2900 4400 2300
+Wire Wire Line
+	6950 2000 6950 1750
+Wire Wire Line
+	6950 1750 7050 1750
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6185655C
+P 4200 3150
+AR Path="/61536750/6185655C" Ref="TP?"  Part="1" 
+AR Path="/6153F75A/6185655C" Ref="TP?"  Part="1" 
+F 0 "TP?" H 4142 3176 50  0000 R CNN
+F 1 "GND Driver" H 4142 3267 50  0000 R CNN
+F 2 "" H 4400 3150 50  0001 C CNN
+F 3 "~" H 4400 3150 50  0001 C CNN
+	1    4200 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4200 3150 4200 2900
 $EndSCHEMATC
