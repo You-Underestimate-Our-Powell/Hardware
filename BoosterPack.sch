@@ -19,6 +19,11 @@ U 6153BBA2
 F0 "PowerPathing" 50
 F1 "PowerPathing.sch" 50
 F2 "GND" I R 4850 3300 50 
+F3 "Vin" I L 3550 3300 50 
+F4 "VCC" I L 3550 3200 50 
+F5 "Rechargeable_Batteries" I L 3550 3000 50 
+F6 "5V_Reg" O L 3550 2800 50 
+F7 "12V_Reg" O L 3550 2900 50 
 $EndSheet
 $Sheet
 S 5350 2650 1300 750 
@@ -36,6 +41,9 @@ U 61536750
 F0 "Connectors" 50
 F1 "Connectors.sch" 50
 F2 "GND" I R 3150 3300 50 
+F3 "Power_Supply" O L 1850 2800 50 
+F4 "Rechargeable_Batteries" O L 1850 2950 50 
+F5 "Electric_Strike" O L 1850 3100 50 
 $EndSheet
 $Comp
 L power:GND #PWR?

@@ -13,18 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1900 2300 0    50   Input ~ 0
-GND
-Wire Wire Line
-	1900 2300 2350 2300
-Text Label 2350 2300 2    50   ~ 0
-GND
-Wire Wire Line
-	4550 2300 4400 2300
-Wire Wire Line
-	4400 2300 4400 2550
-Text Label 4400 2550 1    50   ~ 0
-GND
 Text HLabel 6950 2000 2    50   Input ~ 0
 Input
 Wire Wire Line
@@ -42,10 +30,6 @@ F 3 "~" H 4200 2000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4350 2000 4550 2000
-Wire Wire Line
-	4050 2000 3800 2000
-Text Label 3800 2000 0    50   ~ 0
-GND
 $Comp
 L Device:C C?
 U 1 1 6157796B
@@ -59,12 +43,6 @@ F 3 "~" H 3950 2250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4100 2100 4100 2250
-Wire Wire Line
-	4100 2100 4550 2100
-Wire Wire Line
-	3800 2250 3650 2250
-Text Label 3650 2600 0    50   ~ 0
-GND
 Wire Wire Line
 	4250 2200 4250 2600
 Wire Wire Line
@@ -80,31 +58,6 @@ F 3 "~" H 3950 2600 50  0001 C CNN
 	1    3950 2600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3800 2600 3650 2600
-Text Label 3650 2250 0    50   ~ 0
-GND
-$Comp
-L Capstone:DRV103U_2K5 IC?
-U 1 1 61573BB1
-P 4550 2000
-F 0 "IC?" H 5600 2265 50  0000 C CNN
-F 1 "DRV103U_2K5" H 5600 2174 50  0000 C CNN
-F 2 "SOIC127P600X175-8N" H 6500 2100 50  0001 L CNN
-F 3 "http://www.ti.com/lit/gpn/DRV103" H 6500 2000 50  0001 L CNN
-F 4 "PWM Low Side Driver (1.5A/3A) for Solenoids, Coils, Valves, Heaters, and Lamps" H 6500 1900 50  0001 L CNN "Description"
-F 5 "1.75" H 6500 1800 50  0001 L CNN "Height"
-F 6 "Texas Instruments" H 6500 1700 50  0001 L CNN "Manufacturer_Name"
-F 7 "DRV103U/2K5" H 6500 1600 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "595-DRV103U/2K5" H 6500 1500 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV103U-2K5?qs=VBduBm9rCJTBf6AcpyRzNg%3D%3D" H 6500 1400 50  0001 L CNN "Mouser Price/Stock"
-F 10 "DRV103U/2K5" H 6500 1300 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/drv103u2k5/texas-instruments" H 6500 1200 50  0001 L CNN "Arrow Price/Stock"
-	1    4550 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 2200 4550 2200
 $Comp
 L Capstone:SD0805S020S1R0 D?
 U 1 1 6157A8ED
@@ -141,10 +94,6 @@ Wire Wire Line
 	6950 2200 6950 2350
 Wire Wire Line
 	6950 2350 7000 2350
-Wire Wire Line
-	7300 2350 7650 2350
-Text Label 7650 2350 2    50   ~ 0
-GND
 Wire Wire Line
 	6950 2350 6950 2500
 Wire Wire Line
@@ -203,4 +152,96 @@ Wire Wire Line
 	6850 3250 8250 3250
 Text Notes 4800 2500 0    50   ~ 0
 NOTE: Driver is negative logic
+$Comp
+L power:GND #PWR?
+U 1 1 6164E047
+P 3550 2600
+F 0 "#PWR?" H 3550 2350 50  0001 C CNN
+F 1 "GND" H 3555 2427 50  0000 C CNN
+F 2 "" H 3550 2600 50  0001 C CNN
+F 3 "" H 3550 2600 50  0001 C CNN
+	1    3550 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 2600 3800 2600
+$Comp
+L power:GND #PWR?
+U 1 1 61651136
+P 3550 2250
+F 0 "#PWR?" H 3550 2000 50  0001 C CNN
+F 1 "GND" H 3555 2077 50  0000 C CNN
+F 2 "" H 3550 2250 50  0001 C CNN
+F 3 "" H 3550 2250 50  0001 C CNN
+	1    3550 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 616517DF
+P 3550 2000
+F 0 "#PWR?" H 3550 1750 50  0001 C CNN
+F 1 "GND" H 3555 1827 50  0000 C CNN
+F 2 "" H 3550 2000 50  0001 C CNN
+F 3 "" H 3550 2000 50  0001 C CNN
+	1    3550 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 2000 4050 2000
+Wire Wire Line
+	3550 2250 3800 2250
+$Comp
+L power:GND #PWR?
+U 1 1 61652A81
+P 7400 2350
+F 0 "#PWR?" H 7400 2100 50  0001 C CNN
+F 1 "GND" H 7405 2177 50  0000 C CNN
+F 2 "" H 7400 2350 50  0001 C CNN
+F 3 "" H 7400 2350 50  0001 C CNN
+	1    7400 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 2350 7400 2350
+Wire Wire Line
+	4550 2300 4400 2300
+Wire Wire Line
+	4250 2200 4550 2200
+Wire Wire Line
+	4100 2100 4550 2100
+$Comp
+L Capstone:DRV103U_2K5 IC?
+U 1 1 61573BB1
+P 4550 2000
+F 0 "IC?" H 5600 2265 50  0000 C CNN
+F 1 "DRV103U_2K5" H 5600 2174 50  0000 C CNN
+F 2 "SOIC127P600X175-8N" H 6500 2100 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/DRV103" H 6500 2000 50  0001 L CNN
+F 4 "PWM Low Side Driver (1.5A/3A) for Solenoids, Coils, Valves, Heaters, and Lamps" H 6500 1900 50  0001 L CNN "Description"
+F 5 "1.75" H 6500 1800 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 6500 1700 50  0001 L CNN "Manufacturer_Name"
+F 7 "DRV103U/2K5" H 6500 1600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-DRV103U/2K5" H 6500 1500 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV103U-2K5?qs=VBduBm9rCJTBf6AcpyRzNg%3D%3D" H 6500 1400 50  0001 L CNN "Mouser Price/Stock"
+F 10 "DRV103U/2K5" H 6500 1300 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/drv103u2k5/texas-instruments" H 6500 1200 50  0001 L CNN "Arrow Price/Stock"
+	1    4550 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61654989
+P 3550 2900
+F 0 "#PWR?" H 3550 2650 50  0001 C CNN
+F 1 "GND" H 3555 2727 50  0000 C CNN
+F 2 "" H 3550 2900 50  0001 C CNN
+F 3 "" H 3550 2900 50  0001 C CNN
+	1    3550 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 2900 4400 2900
+Wire Wire Line
+	4400 2900 4400 2300
 $EndSCHEMATC
