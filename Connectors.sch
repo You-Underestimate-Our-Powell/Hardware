@@ -16,120 +16,120 @@ $EndDescr
 $Comp
 L BoosterPack-rescue:691137710002-Capstone-BoosterPack-rescue J?
 U 1 1 615C9DB6
-P 2150 7350
+P 2050 2850
 AR Path="/615C9DB6" Ref="J?"  Part="1" 
 AR Path="/61536750/615C9DB6" Ref="J1"  Part="1" 
-F 0 "J1" H 2778 7346 50  0000 L CNN
-F 1 "691137710002" H 2778 7255 50  0000 L CNN
-F 2 "SHDR2W70P0X500_1X2_1000X750X1160P" H 2800 7450 50  0001 L CNN
-F 3 "https://katalog.we-online.com/em/datasheet/691137710002.pdf" H 2800 7350 50  0001 L CNN
-F 4 "Wurth Elektronik WR-TBL Series 5mm Pitch, 2 Way, PCB Terminal Block, Through Hole" H 2800 7250 50  0001 L CNN "Description"
-F 5 "11.6" H 2800 7150 50  0001 L CNN "Height"
-F 6 "Wurth Elektronik" H 2800 7050 50  0001 L CNN "Manufacturer_Name"
-F 7 "691137710002" H 2800 6950 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "710-691137710002" H 2800 6850 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/691137710002?qs=lBTPRtX1sU9LnHBbviNKGA%3D%3D" H 2800 6750 50  0001 L CNN "Mouser Price/Stock"
-	1    2150 7350
+F 0 "J1" H 2400 3000 50  0000 L CNN
+F 1 "691137710002" H 2150 2600 50  0000 L CNN
+F 2 "SHDR2W70P0X500_1X2_1000X750X1160P" H 2700 2950 50  0001 L CNN
+F 3 "https://katalog.we-online.com/em/datasheet/691137710002.pdf" H 2700 2850 50  0001 L CNN
+F 4 "Wurth Elektronik WR-TBL Series 5mm Pitch, 2 Way, PCB Terminal Block, Through Hole" H 2700 2750 50  0001 L CNN "Description"
+F 5 "11.6" H 2700 2650 50  0001 L CNN "Height"
+F 6 "Wurth Elektronik" H 2700 2550 50  0001 L CNN "Manufacturer_Name"
+F 7 "691137710002" H 2700 2450 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "710-691137710002" H 2700 2350 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/691137710002?qs=lBTPRtX1sU9LnHBbviNKGA%3D%3D" H 2700 2250 50  0001 L CNN "Mouser Price/Stock"
+	1    2050 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L BoosterPack-rescue:691137710002-Capstone-BoosterPack-rescue J?
 U 1 1 615CAB9C
-P 5200 7100
+P 1900 4450
 AR Path="/615CAB9C" Ref="J?"  Part="1" 
 AR Path="/61536750/615CAB9C" Ref="J3"  Part="1" 
-F 0 "J3" H 5828 7096 50  0000 L CNN
-F 1 "691137710002" H 5828 7005 50  0000 L CNN
-F 2 "SHDR2W70P0X500_1X2_1000X750X1160P" H 5850 7200 50  0001 L CNN
-F 3 "https://katalog.we-online.com/em/datasheet/691137710002.pdf" H 5850 7100 50  0001 L CNN
-F 4 "Wurth Elektronik WR-TBL Series 5mm Pitch, 2 Way, PCB Terminal Block, Through Hole" H 5850 7000 50  0001 L CNN "Description"
-F 5 "11.6" H 5850 6900 50  0001 L CNN "Height"
-F 6 "Wurth Elektronik" H 5850 6800 50  0001 L CNN "Manufacturer_Name"
-F 7 "691137710002" H 5850 6700 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "710-691137710002" H 5850 6600 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/691137710002?qs=lBTPRtX1sU9LnHBbviNKGA%3D%3D" H 5850 6500 50  0001 L CNN "Mouser Price/Stock"
-	1    5200 7100
+F 0 "J3" H 2250 4600 50  0000 L CNN
+F 1 "691137710002" H 2050 4200 50  0000 L CNN
+F 2 "SHDR2W70P0X500_1X2_1000X750X1160P" H 2550 4550 50  0001 L CNN
+F 3 "https://katalog.we-online.com/em/datasheet/691137710002.pdf" H 2550 4450 50  0001 L CNN
+F 4 "Wurth Elektronik WR-TBL Series 5mm Pitch, 2 Way, PCB Terminal Block, Through Hole" H 2550 4350 50  0001 L CNN "Description"
+F 5 "11.6" H 2550 4250 50  0001 L CNN "Height"
+F 6 "Wurth Elektronik" H 2550 4150 50  0001 L CNN "Manufacturer_Name"
+F 7 "691137710002" H 2550 4050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "710-691137710002" H 2550 3950 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/691137710002?qs=lBTPRtX1sU9LnHBbviNKGA%3D%3D" H 2550 3850 50  0001 L CNN "Mouser Price/Stock"
+	1    1900 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Capstone:PJ-002A IC4
 U 1 1 6160CEBD
-P 1750 6600
-F 0 "IC4" H 2150 6865 50  0000 C CNN
-F 1 "PJ-002A" H 2150 6774 50  0000 C CNN
-F 2 "PJ002A" H 2400 6700 50  0001 L CNN
-F 3 "https://www.cui.com/product/resource/digikeypdf/pj-002a.pdf" H 2400 6600 50  0001 L CNN
-F 4 "CONN PWR JACK 2X5.5MM SOLDER" H 2400 6500 50  0001 L CNN "Description"
-F 5 "11" H 2400 6400 50  0001 L CNN "Height"
-F 6 "CUI Inc." H 2400 6300 50  0001 L CNN "Manufacturer_Name"
-F 7 "PJ-002A" H 2400 6200 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "490-PJ-002A" H 2400 6100 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/PJ-002A?qs=WyjlAZoYn51CKfAix9Mngw%3D%3D" H 2400 6000 50  0001 L CNN "Mouser Price/Stock"
-F 10 "PJ-002A" H 2400 5900 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/pj-002a/cui-devices" H 2400 5800 50  0001 L CNN "Arrow Price/Stock"
-	1    1750 6600
+P 1150 1450
+F 0 "IC4" H 1550 1715 50  0000 C CNN
+F 1 "PJ-002A" H 1550 1624 50  0000 C CNN
+F 2 "PJ002A" H 1800 1550 50  0001 L CNN
+F 3 "https://www.cui.com/product/resource/digikeypdf/pj-002a.pdf" H 1800 1450 50  0001 L CNN
+F 4 "CONN PWR JACK 2X5.5MM SOLDER" H 1800 1350 50  0001 L CNN "Description"
+F 5 "11" H 1800 1250 50  0001 L CNN "Height"
+F 6 "CUI Inc." H 1800 1150 50  0001 L CNN "Manufacturer_Name"
+F 7 "PJ-002A" H 1800 1050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "490-PJ-002A" H 1800 950 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/PJ-002A?qs=WyjlAZoYn51CKfAix9Mngw%3D%3D" H 1800 850 50  0001 L CNN "Mouser Price/Stock"
+F 10 "PJ-002A" H 1800 750 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/pj-002a/cui-devices" H 1800 650 50  0001 L CNN "Arrow Price/Stock"
+	1    1150 1450
 	1    0    0    -1  
 $EndComp
-Text HLabel 2900 6700 2    50   Output ~ 0
+Text HLabel 2300 1550 2    50   Output ~ 0
 VCC
-Text HLabel 1650 7350 0    50   Output ~ 0
+Text HLabel 1550 2850 0    50   Output ~ 0
 Rechargeable_Batteries
-Text HLabel 4750 7100 0    50   Input ~ 0
+Text HLabel 1450 4450 0    50   Input ~ 0
 VS
 $Comp
 L Connector:TestPoint TP9
 U 1 1 61624CC1
-P 2750 6800
-F 0 "TP9" H 2692 6826 50  0000 R CNN
-F 1 "TestPoint - Power Suppply" H 2692 6917 50  0000 R CNN
-F 2 "" H 2950 6800 50  0001 C CNN
-F 3 "~" H 2950 6800 50  0001 C CNN
-	1    2750 6800
+P 2150 1650
+F 0 "TP9" H 2092 1676 50  0000 R CNN
+F 1 "TestPoint - Power Supply" H 2650 1900 50  0000 R CNN
+F 2 "" H 2350 1650 50  0001 C CNN
+F 3 "~" H 2350 1650 50  0001 C CNN
+	1    2150 1650
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:TestPoint TP6
 U 1 1 61627D05
-P 1900 7150
-F 0 "TP6" H 1958 7268 50  0000 L CNN
-F 1 "TestPoint - Rechargeable Batteries" H 1958 7177 50  0000 L CNN
-F 2 "" H 2100 7150 50  0001 C CNN
-F 3 "~" H 2100 7150 50  0001 C CNN
-	1    1900 7150
+P 1800 2650
+F 0 "TP6" H 1858 2768 50  0000 L CNN
+F 1 "TestPoint - Rechargeable Batteries" H 1150 2900 50  0000 L CNN
+F 2 "" H 2000 2650 50  0001 C CNN
+F 3 "~" H 2000 2650 50  0001 C CNN
+	1    1800 2650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 7350 1900 7350
+	1550 2850 1800 2850
 Wire Wire Line
-	1900 7350 1900 7150
+	1800 2850 1800 2650
 Wire Wire Line
-	2150 7350 1900 7350
-Connection ~ 1900 7350
+	2050 2850 1800 2850
+Connection ~ 1800 2850
 $Comp
 L Connector:TestPoint TP10
 U 1 1 6162AC3A
-P 4950 6950
-F 0 "TP10" H 5008 7068 50  0000 L CNN
-F 1 "TestPoint - Electric Strike VS" H 5008 6977 50  0000 L CNN
-F 2 "" H 5150 6950 50  0001 C CNN
-F 3 "~" H 5150 6950 50  0001 C CNN
-	1    4950 6950
+P 1650 4300
+F 0 "TP10" H 1708 4418 50  0000 L CNN
+F 1 "TestPoint - Electric Strike VS" H 1100 4550 50  0000 L CNN
+F 2 "" H 1850 4300 50  0001 C CNN
+F 3 "~" H 1850 4300 50  0001 C CNN
+	1    1650 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 7100 4950 7100
+	1450 4450 1650 4450
 Wire Wire Line
-	4950 7100 4950 6950
+	1650 4450 1650 4300
 Wire Wire Line
-	5200 7100 4950 7100
-Connection ~ 4950 7100
+	1900 4450 1650 4450
+Connection ~ 1650 4450
 Wire Wire Line
-	2550 6700 2750 6700
+	1950 1550 2150 1550
 Wire Wire Line
-	2750 6800 2750 6700
-Connection ~ 2750 6700
+	2150 1650 2150 1550
+Connection ~ 2150 1550
 Wire Wire Line
-	2750 6700 2900 6700
+	2150 1550 2300 1550
 $Comp
 L Capstone:ESDALC6V1-1U2 D10
 U 1 1 61701915
@@ -177,38 +177,36 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0112
 U 1 1 61736CD0
-P 4100 3100
-F 0 "#PWR0112" H 4100 2850 50  0001 C CNN
-F 1 "GND" V 4105 2972 50  0000 R CNN
-F 2 "" H 4100 3100 50  0001 C CNN
-F 3 "" H 4100 3100 50  0001 C CNN
-	1    4100 3100
+P 4350 3100
+F 0 "#PWR0112" H 4350 2850 50  0001 C CNN
+F 1 "GND" V 4355 2972 50  0000 R CNN
+F 2 "" H 4350 3100 50  0001 C CNN
+F 3 "" H 4350 3100 50  0001 C CNN
+	1    4350 3100
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0113
 U 1 1 61737540
-P 4100 2400
-F 0 "#PWR0113" H 4100 2150 50  0001 C CNN
-F 1 "GND" V 4105 2272 50  0000 R CNN
-F 2 "" H 4100 2400 50  0001 C CNN
-F 3 "" H 4100 2400 50  0001 C CNN
-	1    4100 2400
+P 4300 2400
+F 0 "#PWR0113" H 4300 2150 50  0001 C CNN
+F 1 "GND" V 4305 2272 50  0000 R CNN
+F 2 "" H 4300 2400 50  0001 C CNN
+F 3 "" H 4300 2400 50  0001 C CNN
+	1    4300 2400
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0114
 U 1 1 61737FC4
-P 4100 1600
-F 0 "#PWR0114" H 4100 1350 50  0001 C CNN
-F 1 "GND" V 4105 1472 50  0000 R CNN
-F 2 "" H 4100 1600 50  0001 C CNN
-F 3 "" H 4100 1600 50  0001 C CNN
-	1    4100 1600
+P 4300 1600
+F 0 "#PWR0114" H 4300 1350 50  0001 C CNN
+F 1 "GND" V 4305 1472 50  0000 R CNN
+F 2 "" H 4300 1600 50  0001 C CNN
+F 3 "" H 4300 1600 50  0001 C CNN
+	1    4300 1600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4100 1600 4500 1600
 Wire Wire Line
 	5850 2800 5400 2800
 Wire Wire Line
@@ -274,8 +272,6 @@ F 3 "" H 5850 1400 50  0001 C CNN
 	1    5850 1400
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4100 2400 4500 2400
 Connection ~ 5400 1200
 $Comp
 L Capstone:PRT-16763 J2
@@ -296,41 +292,37 @@ F 11 "" H 5250 400 50  0001 L CNN "Arrow Price/Stock"
 	1    4500 1200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4100 3100 4500 3100
 $Comp
 L power:GND #PWR0120
 U 1 1 61748007
-P 1550 6600
-F 0 "#PWR0120" H 1550 6350 50  0001 C CNN
-F 1 "GND" V 1555 6472 50  0000 R CNN
-F 2 "" H 1550 6600 50  0001 C CNN
-F 3 "" H 1550 6600 50  0001 C CNN
-	1    1550 6600
+P 1050 1450
+F 0 "#PWR0120" H 1050 1200 50  0001 C CNN
+F 1 "GND" V 1055 1322 50  0000 R CNN
+F 2 "" H 1050 1450 50  0001 C CNN
+F 3 "" H 1050 1450 50  0001 C CNN
+	1    1050 1450
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0121
 U 1 1 61748F8F
-P 2850 6600
-F 0 "#PWR0121" H 2850 6350 50  0001 C CNN
-F 1 "GND" V 2855 6472 50  0000 R CNN
-F 2 "" H 2850 6600 50  0001 C CNN
-F 3 "" H 2850 6600 50  0001 C CNN
-	1    2850 6600
+P 2250 1450
+F 0 "#PWR0121" H 2250 1200 50  0001 C CNN
+F 1 "GND" V 2255 1322 50  0000 R CNN
+F 2 "" H 2250 1450 50  0001 C CNN
+F 3 "" H 2250 1450 50  0001 C CNN
+	1    2250 1450
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1550 6600 1750 6600
 $Comp
 L power:GND #PWR0122
 U 1 1 6174BD93
-P 1700 7450
-F 0 "#PWR0122" H 1700 7200 50  0001 C CNN
-F 1 "GND" V 1705 7322 50  0000 R CNN
-F 2 "" H 1700 7450 50  0001 C CNN
-F 3 "" H 1700 7450 50  0001 C CNN
-	1    1700 7450
+P 1600 2950
+F 0 "#PWR0122" H 1600 2700 50  0001 C CNN
+F 1 "GND" V 1605 2822 50  0000 R CNN
+F 2 "" H 1600 2950 50  0001 C CNN
+F 3 "" H 1600 2950 50  0001 C CNN
+	1    1600 2950
 	0    1    1    0   
 $EndComp
 $Comp
@@ -506,47 +498,33 @@ Wire Wire Line
 Wire Wire Line
 	6350 2950 6650 2950
 Wire Wire Line
-	4500 1700 1350 1700
+	4500 1700 3450 1700
 Wire Wire Line
-	1350 6250 10700 6250
+	3450 1700 3450 5150
 Wire Wire Line
-	1350 1700 1350 6250
+	4500 1800 3550 1800
 Wire Wire Line
-	4500 1800 1450 1800
+	3550 1800 3550 5100
 Wire Wire Line
-	1450 1800 1450 6200
+	4500 1900 3650 1900
 Wire Wire Line
-	1450 6200 10100 6200
+	3650 1900 3650 5050
 Wire Wire Line
-	4500 1900 1550 1900
+	4500 2100 3750 2100
 Wire Wire Line
-	1550 1900 1550 6150
+	3750 2100 3750 5000
 Wire Wire Line
-	1550 6150 9500 6150
+	4500 2200 3850 2200
 Wire Wire Line
-	4500 2100 1650 2100
+	3850 2200 3850 4950
 Wire Wire Line
-	1650 2100 1650 6100
+	4500 2300 3950 2300
 Wire Wire Line
-	1650 6100 8900 6100
+	3950 2300 3950 4900
 Wire Wire Line
-	4500 2200 1750 2200
+	4500 3000 4050 3000
 Wire Wire Line
-	1750 2200 1750 6050
-Wire Wire Line
-	1750 6050 8400 6050
-Wire Wire Line
-	4500 2300 1850 2300
-Wire Wire Line
-	1850 2300 1850 6000
-Wire Wire Line
-	1850 6000 7800 6000
-Wire Wire Line
-	4500 3000 1950 3000
-Wire Wire Line
-	1950 3000 1950 5950
-Wire Wire Line
-	1950 5950 7250 5950
+	4050 3000 4050 4850
 Connection ~ 6650 2950
 Wire Wire Line
 	7250 2950 7250 3450
@@ -680,62 +658,62 @@ Text HLabel 5900 1500 2    50   Output ~ 0
 Solenoid_Driver_Input
 Wire Wire Line
 	5400 1500 5900 1500
-Text HLabel 4750 7200 0    50   Input ~ 0
+Text HLabel 1450 4550 0    50   Input ~ 0
 Control
 $Comp
 L Connector:TestPoint TP11
 U 1 1 6180A68B
-P 4950 7400
-F 0 "TP11" H 5008 7518 50  0000 L CNN
-F 1 "TestPoint - Electric Strike Control" H 5008 7427 50  0000 L CNN
-F 2 "" H 5150 7400 50  0001 C CNN
-F 3 "~" H 5150 7400 50  0001 C CNN
-	1    4950 7400
+P 1650 4750
+F 0 "TP11" H 1708 4868 50  0000 L CNN
+F 1 "TestPoint - Electric Strike Control" H 1000 5000 50  0000 L CNN
+F 2 "" H 1850 4750 50  0001 C CNN
+F 3 "~" H 1850 4750 50  0001 C CNN
+	1    1650 4750
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4750 7200 4950 7200
+	1450 4550 1650 4550
 Wire Wire Line
-	4950 7400 4950 7200
-Connection ~ 4950 7200
+	1650 4750 1650 4550
+Connection ~ 1650 4550
 Wire Wire Line
-	4950 7200 5200 7200
+	1650 4550 1900 4550
 Wire Wire Line
-	1700 7450 1900 7450
+	1600 2950 1800 2950
 Wire Wire Line
-	2550 6600 2750 6600
+	1950 1450 2150 1450
 $Comp
 L Connector:TestPoint TP7
 U 1 1 61828BFF
-P 1900 7600
-F 0 "TP7" H 1958 7718 50  0000 L CNN
-F 1 "TestPoint - GND Rechargeable Batteries" H 300 7700 50  0000 L CNN
-F 2 "" H 2100 7600 50  0001 C CNN
-F 3 "~" H 2100 7600 50  0001 C CNN
-	1    1900 7600
+P 1800 3100
+F 0 "TP7" H 1858 3218 50  0000 L CNN
+F 1 "TestPoint - GND Rechargeable Batteries" H 1000 3350 50  0000 L CNN
+F 2 "" H 2000 3100 50  0001 C CNN
+F 3 "~" H 2000 3100 50  0001 C CNN
+	1    1800 3100
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1900 7600 1900 7450
-Connection ~ 1900 7450
+	1800 3100 1800 2950
+Connection ~ 1800 2950
 Wire Wire Line
-	1900 7450 2150 7450
+	1800 2950 2050 2950
 $Comp
 L Connector:TestPoint TP8
 U 1 1 6182F7F2
-P 2750 6500
-F 0 "TP8" H 2808 6618 50  0000 L CNN
-F 1 "TestPoint - GND VCC" H 2808 6527 50  0000 L CNN
-F 2 "" H 2950 6500 50  0001 C CNN
-F 3 "~" H 2950 6500 50  0001 C CNN
-	1    2750 6500
+P 2150 1350
+F 0 "TP8" H 2208 1468 50  0000 L CNN
+F 1 "TestPoint - GND VCC" H 1750 1600 50  0000 L CNN
+F 2 "" H 2350 1350 50  0001 C CNN
+F 3 "~" H 2350 1350 50  0001 C CNN
+	1    2150 1350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2750 6500 2750 6600
-Connection ~ 2750 6600
+	2150 1350 2150 1450
+Connection ~ 2150 1450
 Wire Wire Line
-	2750 6600 2850 6600
+	2150 1450 2250 1450
 $Comp
 L Connector:TestPoint TP14
 U 1 1 61839E0C
@@ -765,21 +743,8 @@ F 3 "~" H 9950 1900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9750 1900 9750 2150
-$Comp
-L Connector:Conn_01x08_Female J4
-U 1 1 615E2A19
-P 4200 4350
-F 0 "J4" H 4092 3725 50  0000 C CNN
-F 1 "Keypad Connector 01x08_Female" H 4092 3816 50  0000 C CNN
-F 2 "" H 4200 4350 50  0001 C CNN
-F 3 "~" H 4200 4350 50  0001 C CNN
-	1    4200 4350
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	10700 3450 10700 4650
-Wire Wire Line
-	8900 3450 8900 4350
 Wire Wire Line
 	9500 3450 9500 4450
 Wire Wire Line
@@ -791,42 +756,87 @@ Wire Wire Line
 Wire Wire Line
 	7250 3450 7250 4050
 Wire Wire Line
-	4400 3950 6650 3950
-Wire Wire Line
 	6650 3450 6650 3950
-Wire Wire Line
-	4400 4050 7250 4050
 Connection ~ 7250 4050
 Wire Wire Line
-	7250 4050 7250 5950
-Wire Wire Line
-	4400 4150 7800 4150
+	7250 4050 7250 4850
 Connection ~ 7800 4150
 Wire Wire Line
-	7800 4150 7800 6000
-Wire Wire Line
-	4400 4250 8400 4250
+	7800 4150 7800 4900
 Connection ~ 8400 4250
 Wire Wire Line
-	8400 4250 8400 6050
-Wire Wire Line
-	4400 4350 8900 4350
+	8400 4250 8400 4950
 Connection ~ 8900 4350
 Wire Wire Line
-	8900 4350 8900 6100
-Wire Wire Line
-	4400 4450 9500 4450
+	8900 4350 8900 5000
 Connection ~ 9500 4450
 Wire Wire Line
-	9500 4450 9500 6150
-Wire Wire Line
-	4400 4550 10100 4550
+	9500 4450 9500 5050
 Connection ~ 10100 4550
 Wire Wire Line
-	10100 4550 10100 6200
-Wire Wire Line
-	4400 4650 10700 4650
+	10100 4550 10100 5100
 Connection ~ 10700 4650
 Wire Wire Line
-	10700 4650 10700 6250
+	10700 4650 10700 5150
+Wire Wire Line
+	8900 3450 8900 4350
+Wire Wire Line
+	4850 4650 10700 4650
+Wire Wire Line
+	4850 4550 10100 4550
+Wire Wire Line
+	4850 4450 9500 4450
+Wire Wire Line
+	4850 4350 8900 4350
+Wire Wire Line
+	4850 4250 8400 4250
+Wire Wire Line
+	4850 4150 7800 4150
+Wire Wire Line
+	4850 4050 7250 4050
+Wire Wire Line
+	4850 3950 6650 3950
+$Comp
+L Connector:Conn_01x08_Female J4
+U 1 1 615E2A19
+P 4650 4350
+F 0 "J4" H 4542 3725 50  0000 C CNN
+F 1 "Keypad Connector 01x08_Female" H 4542 3816 50  0000 C CNN
+F 2 "" H 4650 4350 50  0001 C CNN
+F 3 "~" H 4650 4350 50  0001 C CNN
+	1    4650 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3450 5150 10700 5150
+Wire Wire Line
+	3550 5100 10100 5100
+Wire Wire Line
+	3650 5050 9500 5050
+Wire Wire Line
+	3750 5000 8900 5000
+Wire Wire Line
+	3850 4950 8400 4950
+Wire Wire Line
+	3950 4900 7800 4900
+Wire Wire Line
+	4050 4850 7250 4850
+Wire Wire Line
+	4300 1600 4500 1600
+Wire Wire Line
+	4300 2400 4500 2400
+Wire Wire Line
+	4350 3100 4500 3100
+Wire Wire Line
+	1050 1450 1150 1450
+Text Label 600  1050 0    50   ~ 0
+Power_Supply_Barrel_Jack
+Text Label 550  2250 0    50   ~ 0
+Rechageable_Batteries_Connector
+Text Label 600  3900 0    50   ~ 0
+Electric_Strike_Connector
+Text Label 4500 800  0    50   ~ 0
+Raspberry_Pi_Connector
+Text Label 5050 3650 2    50   ~ 0
+Keypad_Connector
 $EndSCHEMATC

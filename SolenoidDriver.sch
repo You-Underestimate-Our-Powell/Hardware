@@ -263,4 +263,6 @@ F 3 "~" H 4400 3150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4200 3150 4200 2900
+Text Label 5250 1650 0    50   ~ 0
+Solenoid_Driver_IC
 $EndSCHEMATC

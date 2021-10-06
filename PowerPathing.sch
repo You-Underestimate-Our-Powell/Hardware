@@ -703,4 +703,12 @@ F 3 "~" H 7350 5150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7150 5150 6900 5150
+Text Label 5850 2100 0    50   ~ 0
+5V_Switching_Regulator
+Text Label 5800 4150 0    50   ~ 0
+12V_Linear_Regulator
+Text Label 2550 1950 0    50   ~ 0
+Ideal_Diode_Controller
+Text Label 2250 3100 0    50   ~ 0
+MOSFET_for_IDC
 $EndSCHEMATC
