@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\student\Documents\Hardware\BoosterPack.sch</source>
+    <date>10/6/2021 1:43:38 PM</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BoosterPack.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/PowerPathing/" tstamps="/6153BBA2/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PowerPathing.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Connectors/" tstamps="/61536750/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Connectors.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/SolenoidDriver/" tstamps="/6153F75A/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SolenoidDriver.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC3">
+      <value>MAX738ACWE+</value>
+      <footprint>SOIC127P1032X265-16N</footprint>
+      <datasheet>http://docs-emea.rs-online.com/webdocs/0f72/0900766b80f72edc.pdf</datasheet>
+      <fields>
+        <field name="Description">DC-DC Converter, Step Down 6V to 16V</field>
+        <field name="Height">2.65</field>
+        <field name="Manufacturer_Name">Maxim Integrated</field>
+        <field name="Manufacturer_Part_Number">MAX738ACWE+</field>
+        <field name="Mouser Part Number">700-MAX738ACWE</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=700-MAX738ACWE</field>
+      </fields>
+      <libsource lib="Capstone" part="MAX738ACWE+" description="DC-DC Converter, Step Down 6V to 16V"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>6153C30A</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>L4940D2T12-TR</value>
+      <footprint>TO254P1542X460-3N</footprint>
+      <datasheet>http://www.st.com/web/en/resource/technical/document/datasheet/CD00000442.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">L4940D2T12-TR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/l4940d2t12-tr/stmicroelectronics</field>
+        <field name="Description">L4940D2T12-TR, Low Dropout Voltage Regulator, 1.5A, 12 V, 3-Pin D2PAK</field>
+        <field name="Height">4.6</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">L4940D2T12-TR</field>
+        <field name="Mouser Part Number">511-L4940D2T12-TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L4940D2T12-TR?qs=riAxU6JNBCuKgVOJv3%252BxRA%3D%3D</field>
+      </fields>
+      <libsource lib="Capstone" part="L4940D2T12-TR" description="L4940D2T12-TR, Low Dropout Voltage Regulator, 1.5A, 12 V, 3-Pin D2PAK"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>6153E2DB</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100u</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>61548B4E</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1u</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>61549C3D</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10n</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>6154C168</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>510k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>6154CCF0</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1u</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>6154DB48</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>330p</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>6154E910</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>SD0805S020S1R0</value>
+      <footprint>DIOM1613X100N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/SD0805S020S1R0.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">SD0805S020S1R0</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/sd0805s020s1r0/avx?region=nac</field>
+        <field name="Description">AVX - SD0805S020S1R0 - DIODE, SCHOTTKY, 1A, 20V, SOD-323</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">AVX</field>
+        <field name="Manufacturer_Part_Number">SD0805S020S1R0</field>
+        <field name="Mouser Part Number">581-SD0805S020S1R0</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/AVX/SD0805S020S1R0?qs=jCA%252BPfw4LHbpkAoSnwrdjw%3D%3D</field>
+      </fields>
+      <libsource lib="Capstone" part="SD0805S020S1R0" description="AVX - SD0805S020S1R0 - DIODE, SCHOTTKY, 1A, 20V, SOD-323"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>61551BA8</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>SRN8040TA-101M</value>
+      <footprint>INDPM8080X450N</footprint>
+      <datasheet>http://www.bourns.com/docs/Product-Datasheets/SRN8040TA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">SRN8040TA-101M</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/srn8040ta-101m/bourns</field>
+        <field name="Description">fixed Inductor 100uH 1.1A non-Shielded</field>
+        <field name="Height">4.5</field>
+        <field name="Manufacturer_Name">Bourns</field>
+        <field name="Manufacturer_Part_Number">SRN8040TA-101M</field>
+        <field name="Mouser Part Number">652-SRN8040TA-101M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Bourns/SRN8040TA-101M?qs=Vt59ZOdFuWYPicTq%2FhiccQ%3D%3D</field>
+      </fields>
+      <libsource lib="Capstone" part="SRN8040TA-101M" description="fixed Inductor 100uH 1.1A non-Shielded"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>61561B3F</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1u</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>6156AEE8</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>22u</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>6156D3FC</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>68u</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>61572EC3</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>LTC4372IMS8#TRPBF</value>
+      <footprint>SOP65P490X110-8N</footprint>
+      <datasheet>https://www.arrow.com/en/products/ltc4372ims8trpbf/analog-devices</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTC4372IMS8#TRPBF</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltc4372ims8trpbf/analog-devices</field>
+        <field name="Description">Power Management Specialized - PMIC Low Icc Ideal Diode Controller w/SHDN</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">LTC4372IMS8#TRPBF</field>
+        <field name="Mouser Part Number">584-LTC4372IMS8TRPBF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC4372IMS8TRPBF?qs=T94vaHKWudTwymNST%2FXaWA%3D%3D</field>
+      </fields>
+      <libsource lib="Capstone" part="LTC4372IMS8#TRPBF" description="Power Management Specialized - PMIC Low Icc Ideal Diode Controller w/SHDN"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>6158EF55</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>615927B4</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>111 ohms</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>615CD244</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4001G</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>615CDA63</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint - 12V Reg</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>6162E091</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint - 5V Reg</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>6163C53C</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint - Power Circuit Out</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>61644C04</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BSC026NE2LS5ATMA1</value>
+      <footprint>BSC026NE2LS5ATMA1</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/BSC026NE2LS5ATMA1.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">BSC026NE2LS5ATMA1</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/bsc026ne2ls5atma1/infineon-technologies-ag</field>
+        <field name="Description">Infineon BSC026NE2LS5ATMA1 N-channel MOSFET, 82 A, 25 V OptiMOS 5, 8-Pin SuperSO</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">BSC026NE2LS5ATMA1</field>
+        <field name="Mouser Part Number">726-BSC026NE2LS5ATMA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC026NE2LS5ATMA1?qs=3Bi3m9r5MQa2EkAa46uDjg%3D%3D</field>
+      </fields>
+      <libsource lib="BoosterPack-rescue" part="BSC026NE2LS5ATMA1-Capstone-BoosterPack-rescue" description=""/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>6164A765</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>GND 5V Reg</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>6184DFD4</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>GND 12V Reg</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>61852063</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>691137710002</value>
+      <footprint>SHDR2W70P0X500_1X2_1000X750X1160P</footprint>
+      <datasheet>https://katalog.we-online.com/em/datasheet/691137710002.pdf</datasheet>
+      <fields>
+        <field name="Description">Wurth Elektronik WR-TBL Series 5mm Pitch, 2 Way, PCB Terminal Block, Through Hole</field>
+        <field name="Height">11.6</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">691137710002</field>
+        <field name="Mouser Part Number">710-691137710002</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/691137710002?qs=lBTPRtX1sU9LnHBbviNKGA%3D%3D</field>
+      </fields>
+      <libsource lib="BoosterPack-rescue" part="691137710002-Capstone-BoosterPack-rescue" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>615C9DB6</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>691137710002</value>
+      <footprint>SHDR2W70P0X500_1X2_1000X750X1160P</footprint>
+      <datasheet>https://katalog.we-online.com/em/datasheet/691137710002.pdf</datasheet>
+      <fields>
+        <field name="Description">Wurth Elektronik WR-TBL Series 5mm Pitch, 2 Way, PCB Terminal Block, Through Hole</field>
+        <field name="Height">11.6</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">691137710002</field>
+        <field name="Mouser Part Number">710-691137710002</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/691137710002?qs=lBTPRtX1sU9LnHBbviNKGA%3D%3D</field>
+      </fields>
+      <libsource lib="BoosterPack-rescue" part="691137710002-Capstone-BoosterPack-rescue" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>615CAB9C</tstamp>
+    </comp>
+    <comp ref="IC4">
+      <value>PJ-002A</value>
+      <footprint>PJ002A</footprint>
+      <datasheet>https://www.cui.com/product/resource/digikeypdf/pj-002a.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">PJ-002A</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/pj-002a/cui-devices</field>
+        <field name="Description">CONN PWR JACK 2X5.5MM SOLDER</field>
+        <field name="Height">11</field>
+        <field name="Manufacturer_Name">CUI Inc.</field>
+        <field name="Manufacturer_Part_Number">PJ-002A</field>
+        <field name="Mouser Part Number">490-PJ-002A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/PJ-002A?qs=WyjlAZoYn51CKfAix9Mngw%3D%3D</field>
+      </fields>
+      <libsource lib="Capstone" part="PJ-002A" description="CONN PWR JACK 2X5.5MM SOLDER"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>6160CEBD</tstamp>
+    </comp>
+    <comp ref="TP9">
+      <value>TestPoint - Power Suppply</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>61624CC1</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint - Rechargeable Batteries</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>61627D05</tstamp>
+    </comp>
+    <comp ref="TP10">
+      <value>TestPoint - Electric Strike VS</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>6162AC3A</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>ESDALC6V1-1U2</value>
+      <footprint>ESDALC6V11U2</footprint>
+      <datasheet>http://www.st.com/web/en/resource/technical/document/datasheet/CD00212838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">ESDALC6V1-1U2</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/esdalc6v1-1u2/stmicroelectronics?region=nac</field>
+        <field name="Description">STMicroelectronics ESDALC6V1-1U2, Uni-Directional TVS Diode, 20W, 2-Pin ST-0201</field>
+        <field name="Height">0</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">ESDALC6V1-1U2</field>
+        <field name="Mouser Part Number">511-ESDALC6V1-1U2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDALC6V1-1U2?qs=dgCJ4P5xKlbGZPjlSTLhTA%3D%3D</field>
+      </fields>
+      <libsource lib="Capstone" part="ESDALC6V1-1U2" description="STMicroelectronics ESDALC6V1-1U2, Uni-Directional TVS Diode, 20W, 2-Pin ST-0201"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>61701915</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>ESDALC6V1-1U2</value>
+      <footprint>ESDALC6V11U2</footprint>
+      <datasheet>http://www.st.com/web/en/resource/technical/document/datasheet/CD00212838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">ESDALC6V1-1U2</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/esdalc6v1-1u2/stmicroelectronics?region=nac</field>
+        <field name="Description">STMicroelectronics ESDALC6V1-1U2, Uni-Directional TVS Diode, 20W, 2-Pin ST-0201</field>
+        <field name="Height">0</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">ESDALC6V1-1U2</field>
+        <field name="Mouser Part Number">511-ESDALC6V1-1U2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDALC6V1-1U2?qs=dgCJ4P5xKlbGZPjlSTLhTA%3D%3D</field>
+      </fields>
+      <libsource lib="Capstone" part="ESDALC6V1-1U2" description="STMicroelectronics ESDALC6V1-1U2, Uni-Directional TVS Diode, 20W, 2-Pin ST-0201"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>6170465B</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>PRT-16763</value>
+      <footprint>RHDR40W64P254_2X20_5130X500X1625P</footprint>
+      <datasheet>https://cdn.sparkfun.com/assets/0/b/8/5/2/DS-16763-2_X_20_Pin_Extended_GPIO_Header_-_Female_-_16mm_7.30mm.pdf</datasheet>
+      <fields>
+        <field name="Description">Headers &amp; Wire Housings Extended GPIO Female Header - 2x20 Pin (16mm/7.30mm)</field>
+        <field name="Height">16.25</field>
+        <field name="Manufacturer_Name">SparkFun</field>
+        <field name="Manufacturer_Part_Number">PRT-16763</field>
+        <field name="Mouser Part Number">474-PRT-16763</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/SparkFun/PRT-16763?qs=W%2FMpXkg%252BdQ5xeCq%2FGKjnlQ%3D%3D</field>
+      </fields>
+      <libsource lib="Capstone" part="PRT-16763" description="Headers &amp; Wire Housings Extended GPIO Female Header - 2x20 Pin (16mm/7.30mm)"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>61536886</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>ESDALC6V1-1U2</value>
+      <footprint>ESDALC6V11U2</footprint>
+      <datasheet>http://www.st.com/web/en/resource/technical/document/datasheet/CD00212838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">ESDALC6V1-1U2</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/esdalc6v1-1u2/stmicroelectronics?region=nac</field>
+        <field name="Description">STMicroelectronics ESDALC6V1-1U2, Uni-Directional TVS Diode, 20W, 2-Pin ST-0201</field>
+        <field name="Height">0</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">ESDALC6V1-1U2</field>
+        <field name="Mouser Part Number">511-ESDALC6V1-1U2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDALC6V1-1U2?qs=dgCJ4P5xKlbGZPjlSTLhTA%3D%3D</field>
+      </fields>
+      <libsource lib="Capstone" part="ESDALC6V1-1U2" description="STMicroelectronics ESDALC6V1-1U2, Uni-Directional TVS Diode, 20W, 2-Pin ST-0201"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>6175493D</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>ESDALC6V1-1U2</value>
+      <footprint>ESDALC6V11U2</footprint>
+      <datasheet>http://www.st.com/web/en/resource/technical/document/datasheet/CD00212838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">ESDALC6V1-1U2</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/esdalc6v1-1u2/stmicroelectronics?region=nac</field>
+        <field name="Description">STMicroelectronics ESDALC6V1-1U2, Uni-Directional TVS Diode, 20W, 2-Pin ST-0201</field>
+        <field name="Height">0</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">ESDALC6V1-1U2</field>
+        <field name="Mouser Part Number">511-ESDALC6V1-1U2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDALC6V1-1U2?qs=dgCJ4P5xKlbGZPjlSTLhTA%3D%3D</field>
+      </fields>
+      <libsource lib="Capstone" part="ESDALC6V1-1U2" description="STMicroelectronics ESDALC6V1-1U2, Uni-Directional TVS Diode, 20W, 2-Pin ST-0201"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>6175494B</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>ESDALC6V1-1U2</value>
+      <footprint>ESDALC6V11U2</footprint>
+      <datasheet>http://www.st.com/web/en/resource/technical/document/datasheet/CD00212838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">ESDALC6V1-1U2</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/esdalc6v1-1u2/stmicroelectronics?region=nac</field>
+        <field name="Description">STMicroelectronics ESDALC6V1-1U2, Uni-Directional TVS Diode, 20W, 2-Pin ST-0201</field>
+        <field name="Height">0</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">ESDALC6V1-1U2</field>
+        <field name="Mouser Part Number">511-ESDALC6V1-1U2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDALC6V1-1U2?qs=dgCJ4P5xKlbGZPjlSTLhTA%3D%3D</field>
+      </fields>
+      <libsource lib="Capstone" part="ESDALC6V1-1U2" description="STMicroelectronics ESDALC6V1-1U2, Uni-Directional TVS Diode, 20W, 2-Pin ST-0201"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>61757437</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>ESDALC6V1-1U2</value>
+      <footprint>ESDALC6V11U2</footprint>
+      <datasheet>http://www.st.com/web/en/resource/technical/document/datasheet/CD00212838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">ESDALC6V1-1U2</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/esdalc6v1-1u2/stmicroelectronics?region=nac</field>
+        <field name="Description">STMicroelectronics ESDALC6V1-1U2, Uni-Directional TVS Diode, 20W, 2-Pin ST-0201</field>
+        <field name="Height">0</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">ESDALC6V1-1U2</field>
+        <field name="Mouser Part Number">511-ESDALC6V1-1U2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDALC6V1-1U2?qs=dgCJ4P5xKlbGZPjlSTLhTA%3D%3D</field>
+      </fields>
+      <libsource lib="Capstone" part="ESDALC6V1-1U2" description="STMicroelectronics ESDALC6V1-1U2, Uni-Directional TVS Diode, 20W, 2-Pin ST-0201"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>61757445</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>ESDALC6V1-1U2</value>
+      <footprint>ESDALC6V11U2</footprint>
+      <datasheet>http://www.st.com/web/en/resource/technical/document/datasheet/CD00212838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">ESDALC6V1-1U2</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/esdalc6v1-1u2/stmicroelectronics?region=nac</field>
+        <field name="Description">STMicroelectronics ESDALC6V1-1U2, Uni-Directional TVS Diode, 20W, 2-Pin ST-0201</field>
+        <field name="Height">0</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">ESDALC6V1-1U2</field>
+        <field name="Mouser Part Number">511-ESDALC6V1-1U2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDALC6V1-1U2?qs=dgCJ4P5xKlbGZPjlSTLhTA%3D%3D</field>
+      </fields>
+      <libsource lib="Capstone" part="ESDALC6V1-1U2" description="STMicroelectronics ESDALC6V1-1U2, Uni-Directional TVS Diode, 20W, 2-Pin ST-0201"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>61757453</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>ESDALC6V1-1U2</value>
+      <footprint>ESDALC6V11U2</footprint>
+      <datasheet>http://www.st.com/web/en/resource/technical/document/datasheet/CD00212838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">ESDALC6V1-1U2</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/esdalc6v1-1u2/stmicroelectronics?region=nac</field>
+        <field name="Description">STMicroelectronics ESDALC6V1-1U2, Uni-Directional TVS Diode, 20W, 2-Pin ST-0201</field>
+        <field name="Height">0</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">ESDALC6V1-1U2</field>
+        <field name="Mouser Part Number">511-ESDALC6V1-1U2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDALC6V1-1U2?qs=dgCJ4P5xKlbGZPjlSTLhTA%3D%3D</field>
+      </fields>
+      <libsource lib="Capstone" part="ESDALC6V1-1U2" description="STMicroelectronics ESDALC6V1-1U2, Uni-Directional TVS Diode, 20W, 2-Pin ST-0201"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>61757461</tstamp>
+    </comp>
+    <comp ref="TP12">
+      <value>Keypad 8</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>617C0D53</tstamp>
+    </comp>
+    <comp ref="TP13">
+      <value>Keypad 7</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>617C1E13</tstamp>
+    </comp>
+    <comp ref="TP15">
+      <value>Keypad 6</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>617C4443</tstamp>
+    </comp>
+    <comp ref="TP16">
+      <value>Keypad 5</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>617C6A91</tstamp>
+    </comp>
+    <comp ref="TP17">
+      <value>Keypad 4</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>617C908C</tstamp>
+    </comp>
+    <comp ref="TP18">
+      <value>Keypad 3</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>617CB7E4</tstamp>
+    </comp>
+    <comp ref="TP20">
+      <value>Keypad 2</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>617EBE74</tstamp>
+    </comp>
+    <comp ref="TP21">
+      <value>Keypad 1</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>617EEBE7</tstamp>
+    </comp>
+    <comp ref="TP11">
+      <value>TestPoint - Electric Strike Control</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>6180A68B</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint - GND Rechargeable Batteries</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>61828BFF</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>TestPoint - GND VCC</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>6182F7F2</tstamp>
+    </comp>
+    <comp ref="TP14">
+      <value>GND Keypad</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>61839E0C</tstamp>
+    </comp>
+    <comp ref="TP19">
+      <value>GND Keypad</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>61841CC3</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>137 kiloohms</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/SolenoidDriver/" tstamps="/6153F75A/"/>
+      <tstamp>6157706B</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1 uF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/SolenoidDriver/" tstamps="/6153F75A/"/>
+      <tstamp>6157796B</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>205 kiloohms</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/SolenoidDriver/" tstamps="/6153F75A/"/>
+      <tstamp>61579346</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>SD0805S020S1R0</value>
+      <footprint>DIOM1613X100N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/SD0805S020S1R0.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">SD0805S020S1R0</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/sd0805s020s1r0/avx?region=nac</field>
+        <field name="Description">AVX - SD0805S020S1R0 - DIODE, SCHOTTKY, 1A, 20V, SOD-323</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">AVX</field>
+        <field name="Manufacturer_Part_Number">SD0805S020S1R0</field>
+        <field name="Mouser Part Number">581-SD0805S020S1R0</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/AVX/SD0805S020S1R0?qs=jCA%252BPfw4LHbpkAoSnwrdjw%3D%3D</field>
+      </fields>
+      <libsource lib="Capstone" part="SD0805S020S1R0" description="AVX - SD0805S020S1R0 - DIODE, SCHOTTKY, 1A, 20V, SOD-323"/>
+      <sheetpath names="/SolenoidDriver/" tstamps="/6153F75A/"/>
+      <tstamp>6157A8ED</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>22uF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/SolenoidDriver/" tstamps="/6153F75A/"/>
+      <tstamp>6157E351</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>Low-Current LED</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/SolenoidDriver/" tstamps="/6153F75A/"/>
+      <tstamp>615819DE</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>5.6 kiloohms</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/SolenoidDriver/" tstamps="/6153F75A/"/>
+      <tstamp>6158256B</tstamp>
+    </comp>
+    <comp ref="IC5">
+      <value>DRV103U_2K5</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/DRV103</datasheet>
+      <fields>
+        <field name="Arrow Part Number">DRV103U/2K5</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/drv103u2k5/texas-instruments</field>
+        <field name="Description">PWM Low Side Driver (1.5A/3A) for Solenoids, Coils, Valves, Heaters, and Lamps</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">DRV103U/2K5</field>
+        <field name="Mouser Part Number">595-DRV103U/2K5</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV103U-2K5?qs=VBduBm9rCJTBf6AcpyRzNg%3D%3D</field>
+      </fields>
+      <libsource lib="Capstone" part="DRV103U_2K5" description="PWM Low Side Driver (1.5A/3A) for Solenoids, Coils, Valves, Heaters, and Lamps"/>
+      <sheetpath names="/SolenoidDriver/" tstamps="/6153F75A/"/>
+      <tstamp>61573BB1</tstamp>
+    </comp>
+    <comp ref="TP22">
+      <value>GND Driver</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/SolenoidDriver/" tstamps="/6153F75A/"/>
+      <tstamp>6185655C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BoosterPack-rescue" part="691137710002-Capstone-BoosterPack-rescue">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">691137710002-Capstone-BoosterPack-rescue</field>
+        <field name="Footprint">SHDR2W70P0X500_1X2_1000X750X1160P</field>
+        <field name="Datasheet">https://katalog.we-online.com/em/datasheet/691137710002.pdf</field>
+        <field name="Description">Wurth Elektronik WR-TBL Series 5mm Pitch, 2 Way, PCB Terminal Block, Through Hole</field>
+        <field name="Height">11.6</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">691137710002</field>
+        <field name="Mouser Part Number">710-691137710002</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/691137710002?qs=lBTPRtX1sU9LnHBbviNKGA%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BoosterPack-rescue" part="BSC026NE2LS5ATMA1-Capstone-BoosterPack-rescue">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSC026NE2LS5ATMA1-Capstone-BoosterPack-rescue</field>
+        <field name="Footprint">BSC026NE2LS5ATMA1</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/2/BSC026NE2LS5ATMA1.pdf</field>
+        <field name="Description">Infineon BSC026NE2LS5ATMA1 N-channel MOSFET, 82 A, 25 V OptiMOS 5, 8-Pin SuperSO</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">BSC026NE2LS5ATMA1</field>
+        <field name="Mouser Part Number">726-BSC026NE2LS5ATMA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC026NE2LS5ATMA1?qs=3Bi3m9r5MQa2EkAa46uDjg%3D%3D</field>
+        <field name="Arrow Part Number">BSC026NE2LS5ATMA1</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/bsc026ne2ls5atma1/infineon-technologies-ag</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S_1" type="passive"/>
+        <pin num="2" name="S_2" type="passive"/>
+        <pin num="3" name="S_3" type="passive"/>
+        <pin num="4" name="G" type="passive"/>
+        <pin num="5" name="D_1" type="passive"/>
+        <pin num="6" name="D_2" type="passive"/>
+        <pin num="7" name="D_3" type="passive"/>
+        <pin num="8" name="D_4" type="passive"/>
+        <pin num="9" name="Heat_Sink" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capstone" part="DRV103U_2K5">
+      <description>PWM Low Side Driver (1.5A/3A) for Solenoids, Coils, Valves, Heaters, and Lamps</description>
+      <docs>http://www.ti.com/lit/gpn/DRV103</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">DRV103U_2K5</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/DRV103</field>
+        <field name="Description">PWM Low Side Driver (1.5A/3A) for Solenoids, Coils, Valves, Heaters, and Lamps</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">DRV103U/2K5</field>
+        <field name="Mouser Part Number">595-DRV103U/2K5</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV103U-2K5?qs=VBduBm9rCJTBf6AcpyRzNg%3D%3D</field>
+        <field name="Arrow Part Number">DRV103U/2K5</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/drv103u2k5/texas-instruments</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DUTY_CYCLE_ADJ" type="passive"/>
+        <pin num="2" name="DELAY_ADJ" type="passive"/>
+        <pin num="3" name="OSC_FREQ_ADJ" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="OUT" type="passive"/>
+        <pin num="6" name="+VS" type="passive"/>
+        <pin num="7" name="STATUS_OK_FLAG" type="passive"/>
+        <pin num="8" name="INPUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capstone" part="ESDALC6V1-1U2">
+      <description>STMicroelectronics ESDALC6V1-1U2, Uni-Directional TVS Diode, 20W, 2-Pin ST-0201</description>
+      <docs>http://www.st.com/web/en/resource/technical/document/datasheet/CD00212838.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ESDALC6V1-1U2</field>
+        <field name="Footprint">ESDALC6V11U2</field>
+        <field name="Datasheet">http://www.st.com/web/en/resource/technical/document/datasheet/CD00212838.pdf</field>
+        <field name="Description">STMicroelectronics ESDALC6V1-1U2, Uni-Directional TVS Diode, 20W, 2-Pin ST-0201</field>
+        <field name="Height">0</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">ESDALC6V1-1U2</field>
+        <field name="Mouser Part Number">511-ESDALC6V1-1U2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDALC6V1-1U2?qs=dgCJ4P5xKlbGZPjlSTLhTA%3D%3D</field>
+        <field name="Arrow Part Number">ESDALC6V1-1U2</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/esdalc6v1-1u2/stmicroelectronics?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capstone" part="L4940D2T12-TR">
+      <description>L4940D2T12-TR, Low Dropout Voltage Regulator, 1.5A, 12 V, 3-Pin D2PAK</description>
+      <docs>http://www.st.com/web/en/resource/technical/document/datasheet/CD00000442.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">L4940D2T12-TR</field>
+        <field name="Footprint">TO254P1542X460-3N</field>
+        <field name="Datasheet">http://www.st.com/web/en/resource/technical/document/datasheet/CD00000442.pdf</field>
+        <field name="Description">L4940D2T12-TR, Low Dropout Voltage Regulator, 1.5A, 12 V, 3-Pin D2PAK</field>
+        <field name="Height">4.6</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">L4940D2T12-TR</field>
+        <field name="Mouser Part Number">511-L4940D2T12-TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L4940D2T12-TR?qs=riAxU6JNBCuKgVOJv3%252BxRA%3D%3D</field>
+        <field name="Arrow Part Number">L4940D2T12-TR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/l4940d2t12-tr/stmicroelectronics</field>
+      </fields>
+      <pins>
+        <pin num="1" name="INPUT" type="output"/>
+        <pin num="3" name="OUTPUT" type="power_in"/>
+        <pin num="4" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capstone" part="LTC4372IMS8#TRPBF">
+      <description>Power Management Specialized - PMIC Low Icc Ideal Diode Controller w/SHDN</description>
+      <docs>https://www.arrow.com/en/products/ltc4372ims8trpbf/analog-devices</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">LTC4372IMS8#TRPBF</field>
+        <field name="Footprint">SOP65P490X110-8N</field>
+        <field name="Datasheet">https://www.arrow.com/en/products/ltc4372ims8trpbf/analog-devices</field>
+        <field name="Description">Power Management Specialized - PMIC Low Icc Ideal Diode Controller w/SHDN</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">LTC4372IMS8#TRPBF</field>
+        <field name="Mouser Part Number">584-LTC4372IMS8TRPBF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC4372IMS8TRPBF?qs=T94vaHKWudTwymNST%2FXaWA%3D%3D</field>
+        <field name="Arrow Part Number">LTC4372IMS8#TRPBF</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltc4372ims8trpbf/analog-devices</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="passive"/>
+        <pin num="2" name="GATE" type="passive"/>
+        <pin num="3" name="SOURCE" type="passive"/>
+        <pin num="4" name="IN" type="passive"/>
+        <pin num="5" name="INTVCC" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="2UPU" type="passive"/>
+        <pin num="8" name="SHDN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capstone" part="MAX738ACWE+">
+      <description>DC-DC Converter, Step Down 6V to 16V</description>
+      <docs>http://docs-emea.rs-online.com/webdocs/0f72/0900766b80f72edc.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MAX738ACWE+</field>
+        <field name="Footprint">SOIC127P1032X265-16N</field>
+        <field name="Datasheet">http://docs-emea.rs-online.com/webdocs/0f72/0900766b80f72edc.pdf</field>
+        <field name="Description">DC-DC Converter, Step Down 6V to 16V</field>
+        <field name="Height">2.65</field>
+        <field name="Manufacturer_Name">Maxim Integrated</field>
+        <field name="Manufacturer_Part_Number">MAX738ACWE+</field>
+        <field name="Mouser Part Number">700-MAX738ACWE</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=700-MAX738ACWE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V+_1" type="passive"/>
+        <pin num="2" name="~SHDN" type="passive"/>
+        <pin num="3" name="REF" type="passive"/>
+        <pin num="4" name="N.C._1" type="passive"/>
+        <pin num="5" name="N.C._2" type="passive"/>
+        <pin num="6" name="N.C._3" type="passive"/>
+        <pin num="7" name="SS" type="passive"/>
+        <pin num="8" name="CC" type="passive"/>
+        <pin num="9" name="OUT" type="passive"/>
+        <pin num="10" name="GND_1" type="passive"/>
+        <pin num="11" name="GND_2" type="passive"/>
+        <pin num="12" name="LX_1" type="passive"/>
+        <pin num="13" name="LX_2" type="passive"/>
+        <pin num="14" name="LX_3" type="passive"/>
+        <pin num="15" name="V+_2" type="passive"/>
+        <pin num="16" name="V+_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capstone" part="PJ-002A">
+      <description>CONN PWR JACK 2X5.5MM SOLDER</description>
+      <docs>https://www.cui.com/product/resource/digikeypdf/pj-002a.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">PJ-002A</field>
+        <field name="Footprint">PJ002A</field>
+        <field name="Datasheet">https://www.cui.com/product/resource/digikeypdf/pj-002a.pdf</field>
+        <field name="Description">CONN PWR JACK 2X5.5MM SOLDER</field>
+        <field name="Height">11</field>
+        <field name="Manufacturer_Name">CUI Inc.</field>
+        <field name="Manufacturer_Part_Number">PJ-002A</field>
+        <field name="Mouser Part Number">490-PJ-002A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/PJ-002A?qs=WyjlAZoYn51CKfAix9Mngw%3D%3D</field>
+        <field name="Arrow Part Number">PJ-002A</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/pj-002a/cui-devices</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Power" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capstone" part="PRT-16763">
+      <description>Headers &amp; Wire Housings Extended GPIO Female Header - 2x20 Pin (16mm/7.30mm)</description>
+      <docs>https://cdn.sparkfun.com/assets/0/b/8/5/2/DS-16763-2_X_20_Pin_Extended_GPIO_Header_-_Female_-_16mm_7.30mm.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PRT-16763</field>
+        <field name="Footprint">RHDR40W64P254_2X20_5130X500X1625P</field>
+        <field name="Datasheet">https://cdn.sparkfun.com/assets/0/b/8/5/2/DS-16763-2_X_20_Pin_Extended_GPIO_Header_-_Female_-_16mm_7.30mm.pdf</field>
+        <field name="Description">Headers &amp; Wire Housings Extended GPIO Female Header - 2x20 Pin (16mm/7.30mm)</field>
+        <field name="Height">16.25</field>
+        <field name="Manufacturer_Name">SparkFun</field>
+        <field name="Manufacturer_Part_Number">PRT-16763</field>
+        <field name="Mouser Part Number">474-PRT-16763</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/SparkFun/PRT-16763?qs=W%2FMpXkg%252BdQ5xeCq%2FGKjnlQ%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3.3V" type="passive"/>
+        <pin num="2" name="5V" type="passive"/>
+        <pin num="3" name="I2C_D2" type="passive"/>
+        <pin num="4" name="5V" type="passive"/>
+        <pin num="5" name="I2C_C2" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="4" type="passive"/>
+        <pin num="8" name="TX" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="RX" type="passive"/>
+        <pin num="11" name="SPI1" type="passive"/>
+        <pin num="12" name="SP1" type="passive"/>
+        <pin num="13" name="27" type="passive"/>
+        <pin num="14" name="GND" type="passive"/>
+        <pin num="15" name="22" type="passive"/>
+        <pin num="16" name="23" type="passive"/>
+        <pin num="17" name="3.3V" type="passive"/>
+        <pin num="18" name="24" type="passive"/>
+        <pin num="19" name="MOSI_0" type="passive"/>
+        <pin num="20" name="GND" type="passive"/>
+        <pin num="21" name="MISO_0" type="passive"/>
+        <pin num="22" name="25" type="passive"/>
+        <pin num="23" name="SCLK_0" type="passive"/>
+        <pin num="24" name="8" type="passive"/>
+        <pin num="25" name="GND" type="passive"/>
+        <pin num="26" name="7" type="passive"/>
+        <pin num="27" name="I2C_D" type="passive"/>
+        <pin num="28" name="I2C_C" type="passive"/>
+        <pin num="29" name="5" type="passive"/>
+        <pin num="30" name="GND" type="passive"/>
+        <pin num="31" name="6" type="passive"/>
+        <pin num="32" name="12" type="passive"/>
+        <pin num="33" name="13" type="passive"/>
+        <pin num="34" name="GND" type="passive"/>
+        <pin num="35" name="MISO_1" type="passive"/>
+        <pin num="36" name="16" type="passive"/>
+        <pin num="37" name="26" type="passive"/>
+        <pin num="38" name="MISO_1" type="passive"/>
+        <pin num="39" name="GND" type="passive"/>
+        <pin num="40" name="SCLK_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capstone" part="SD0805S020S1R0">
+      <description>AVX - SD0805S020S1R0 - DIODE, SCHOTTKY, 1A, 20V, SOD-323</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/SD0805S020S1R0.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SD0805S020S1R0</field>
+        <field name="Footprint">DIOM1613X100N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/SD0805S020S1R0.pdf</field>
+        <field name="Description">AVX - SD0805S020S1R0 - DIODE, SCHOTTKY, 1A, 20V, SOD-323</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">AVX</field>
+        <field name="Manufacturer_Part_Number">SD0805S020S1R0</field>
+        <field name="Mouser Part Number">581-SD0805S020S1R0</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/AVX/SD0805S020S1R0?qs=jCA%252BPfw4LHbpkAoSnwrdjw%3D%3D</field>
+        <field name="Arrow Part Number">SD0805S020S1R0</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/sd0805s020s1r0/avx?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capstone" part="SRN8040TA-101M">
+      <description>fixed Inductor 100uH 1.1A non-Shielded</description>
+      <docs>http://www.bourns.com/docs/Product-Datasheets/SRN8040TA.pdf</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">SRN8040TA-101M</field>
+        <field name="Footprint">INDPM8080X450N</field>
+        <field name="Datasheet">http://www.bourns.com/docs/Product-Datasheets/SRN8040TA.pdf</field>
+        <field name="Description">fixed Inductor 100uH 1.1A non-Shielded</field>
+        <field name="Height">4.5</field>
+        <field name="Manufacturer_Name">Bourns</field>
+        <field name="Manufacturer_Part_Number">SRN8040TA-101M</field>
+        <field name="Mouser Part Number">652-SRN8040TA-101M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Bourns/SRN8040TA-101M?qs=Vt59ZOdFuWYPicTq%2FhiccQ%3D%3D</field>
+        <field name="Arrow Part Number">SRN8040TA-101M</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/srn8040ta-101m/bourns</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BoosterPack-rescue">
+      <uri>C:\Users\student\Documents\Hardware/BoosterPack-rescue.lib</uri>
+    </library>
+    <library logical="Capstone">
+      <uri>C:\Users\student\Documents\Hardware/Libraries/SamacSys_Parts.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Connectors/VS">
+      <node ref="D12" pin="1"/>
+      <node ref="IC5" pin="6"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="IC2" pin="3"/>
+      <node ref="C7" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="TP10" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="2" name="/Connectors/Solenoid_Driver_Input">
+      <node ref="IC5" pin="8"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="3" name="/Connectors/Control">
+      <node ref="IC5" pin="5"/>
+      <node ref="TP11" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="4" name="/Connectors/Rechargeable_Batteries">
+      <node ref="TP6" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="J1" pin="1"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="5" name="/Connectors/5V_Reg">
+      <node ref="L1" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="IC3" pin="9"/>
+      <node ref="TP5" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="6" name="/Connectors/VCC">
+      <node ref="D1" pin="2"/>
+      <node ref="TP9" pin="1"/>
+      <node ref="IC4" pin="1"/>
+    </net>
+    <net code="7" name="Net-(J2-Pad40)">
+      <node ref="J2" pin="40"/>
+    </net>
+    <net code="8" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="9" name="Net-(J2-Pad24)">
+      <node ref="J2" pin="24"/>
+    </net>
+    <net code="10" name="Net-(J2-Pad7)">
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="IC2" pin="4"/>
+      <node ref="J2" pin="30"/>
+      <node ref="IC5" pin="4"/>
+      <node ref="J2" pin="9"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J2" pin="25"/>
+      <node ref="J1" pin="2"/>
+      <node ref="IC4" pin="2"/>
+      <node ref="IC4" pin="3"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="J2" pin="39"/>
+      <node ref="C1" pin="1"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="J2" pin="6"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="J2" pin="34"/>
+      <node ref="TP14" pin="1"/>
+      <node ref="TP8" pin="1"/>
+      <node ref="TP7" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="J2" pin="20"/>
+      <node ref="J2" pin="14"/>
+    </net>
+    <net code="12" name="Net-(J2-Pad38)">
+      <node ref="J2" pin="38"/>
+    </net>
+    <net code="13" name="Net-(J2-Pad35)">
+      <node ref="J2" pin="35"/>
+    </net>
+    <net code="14" name="Net-(J2-Pad33)">
+      <node ref="J2" pin="33"/>
+    </net>
+    <net code="15" name="Net-(J2-Pad32)">
+      <node ref="J2" pin="32"/>
+    </net>
+    <net code="16" name="Net-(J2-Pad31)">
+      <node ref="J2" pin="31"/>
+    </net>
+    <net code="17" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="18" name="Net-(J2-Pad29)">
+      <node ref="J2" pin="29"/>
+    </net>
+    <net code="19" name="Net-(J2-Pad28)">
+      <node ref="J2" pin="28"/>
+    </net>
+    <net code="20" name="Net-(J2-Pad27)">
+      <node ref="J2" pin="27"/>
+    </net>
+    <net code="21" name="Net-(J2-Pad26)">
+      <node ref="J2" pin="26"/>
+    </net>
+    <net code="22" name="Net-(D8-Pad1)">
+      <node ref="TP18" pin="1"/>
+      <node ref="J2" pin="15"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="23" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="24" name="Net-(J2-Pad22)">
+      <node ref="J2" pin="22"/>
+    </net>
+    <net code="25" name="Net-(J2-Pad18)">
+      <node ref="J2" pin="18"/>
+    </net>
+    <net code="26" name="Net-(J2-Pad17)">
+      <node ref="J2" pin="17"/>
+    </net>
+    <net code="27" name="Net-(J2-Pad16)">
+      <node ref="J2" pin="16"/>
+    </net>
+    <net code="28" name="Net-(J2-Pad12)">
+      <node ref="J2" pin="12"/>
+    </net>
+    <net code="29" name="Net-(J2-Pad10)">
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="30" name="Net-(D4-Pad1)">
+      <node ref="TP13" pin="1"/>
+      <node ref="J2" pin="37"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="31" name="Net-(D5-Pad1)">
+      <node ref="TP15" pin="1"/>
+      <node ref="J2" pin="23"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="32" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="J2" pin="36"/>
+      <node ref="TP12" pin="1"/>
+    </net>
+    <net code="34" name="Net-(TP19-Pad1)">
+      <node ref="TP19" pin="1"/>
+    </net>
+    <net code="35" name="Net-(D6-Pad1)">
+      <node ref="J2" pin="21"/>
+      <node ref="TP16" pin="1"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="36" name="Net-(D7-Pad1)">
+      <node ref="TP17" pin="1"/>
+      <node ref="J2" pin="19"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="37" name="Net-(D9-Pad1)">
+      <node ref="J2" pin="13"/>
+      <node ref="TP20" pin="1"/>
+      <node ref="D9" pin="1"/>
+    </net>
+    <net code="38" name="Net-(D10-Pad1)">
+      <node ref="D10" pin="1"/>
+      <node ref="TP21" pin="1"/>
+      <node ref="J2" pin="11"/>
+    </net>
+    <net code="39" name="Net-(D2-Pad1)">
+      <node ref="IC3" pin="14"/>
+      <node ref="IC3" pin="13"/>
+      <node ref="IC3" pin="12"/>
+      <node ref="L1" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="40" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="41" name="Net-(IC1-Pad2)">
+      <node ref="Q1" pin="4"/>
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="42" name="Net-(IC3-Pad6)">
+      <node ref="IC3" pin="6"/>
+    </net>
+    <net code="43" name="Net-(IC3-Pad5)">
+      <node ref="IC3" pin="5"/>
+    </net>
+    <net code="44" name="Net-(IC3-Pad4)">
+      <node ref="IC3" pin="4"/>
+    </net>
+    <net code="45" name="Net-(C3-Pad1)">
+      <node ref="IC3" pin="3"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="46" name="Net-(IC3-Pad10)">
+      <node ref="IC3" pin="11"/>
+      <node ref="IC3" pin="10"/>
+    </net>
+    <net code="47" name="Net-(C8-Pad2)">
+      <node ref="IC3" pin="8"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="48" name="Net-(C5-Pad1)">
+      <node ref="IC3" pin="7"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="49" name="Net-(TP3-Pad1)">
+      <node ref="TP3" pin="1"/>
+    </net>
+    <net code="50" name="Net-(TP4-Pad1)">
+      <node ref="TP4" pin="1"/>
+    </net>
+    <net code="51" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="IC2" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="IC3" pin="15"/>
+      <node ref="IC3" pin="1"/>
+      <node ref="Q1" pin="8"/>
+      <node ref="R2" pin="2"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="IC3" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="IC3" pin="16"/>
+      <node ref="Q1" pin="5"/>
+      <node ref="Q1" pin="6"/>
+      <node ref="Q1" pin="7"/>
+    </net>
+    <net code="52" name="Net-(Q1-Pad9)">
+      <node ref="Q1" pin="9"/>
+    </net>
+    <net code="53" name="Net-(D11-Pad1)">
+      <node ref="IC5" pin="7"/>
+      <node ref="D11" pin="1"/>
+    </net>
+    <net code="54" name="Net-(TP22-Pad1)">
+      <node ref="TP22" pin="1"/>
+    </net>
+    <net code="55" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="IC5" pin="2"/>
+    </net>
+    <net code="56" name="Net-(IC5-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="IC5" pin="1"/>
+    </net>
+    <net code="57" name="Net-(IC5-Pad3)">
+      <node ref="R3" pin="1"/>
+      <node ref="IC5" pin="3"/>
+    </net>
+    <net code="58" name="Net-(D11-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="D11" pin="2"/>
+    </net>
+  </nets>
+</export>
