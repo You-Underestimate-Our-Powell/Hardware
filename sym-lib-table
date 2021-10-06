@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Capstone)(type Legacy)(uri ${KIPRJMOD}/Libraries/SamacSys_Parts.lib)(options "")(descr ""))
+  (lib (name BoosterPack-rescue)(type Legacy)(uri ${KIPRJMOD}/BoosterPack-rescue.lib)(options "")(descr ""))
 )
