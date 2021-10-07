@@ -74,6 +74,29 @@ X 8 8 0 0 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
+# Capstone_860020672005
+#
+DEF Capstone_860020672005 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "Capstone_860020672005" 350 150 50 H V L CNN
+F2 "CAPPRD200W52D500H1250" 350 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/860020672005.pdf" 350 -50 50 H I L CNN
+F4 "Wurth Elektronik 1uF 50 V dc Aluminium Electrolytic Capacitor, WCAP-ATG5 Series 2000h 5 (Dia.) x 11mm" 350 -150 50 H I L CNN "Description"
+F5 "12.5" 350 -250 50 H I L CNN "Height"
+F6 "Wurth Elektronik" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "860020672005" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "710-860020672005" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/860020672005?qs=0KOYDY2FL29w5cS8aahRvQ%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # Capstone_DRV103U_2K5
 #
 DEF Capstone_DRV103U_2K5 IC 0 30 Y Y 1 F N
@@ -209,6 +232,23 @@ X N.C._3 6 0 -500 200 R 50 50 0 0 P
 X SS 7 0 -600 200 R 50 50 0 0 P
 X CC 8 0 -700 200 R 50 50 0 0 P
 X OUT 9 1300 -700 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Capstone_MRS25000C2053FCT00
+#
+DEF Capstone_MRS25000C2053FCT00 R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "Capstone_MRS25000C2053FCT00" 550 150 50 H V L CNN
+F2 "RESAD1650W60L650D250" 550 50 50 H I L CNN
+F3 "http://www.vishay.com/docs/28724/mrs16m25.pdf" 550 -50 50 H I L CNN
+F4 "Vishay MRS25 Series Axial Thin Film Resistor 205k +/-1% 0.6W +/-50ppm/C" 550 -150 50 H I L CNN "Description"
+F5 "Vishay" 550 -350 50 H I L CNN "Manufacturer_Name"
+F6 "MRS25000C2053FCT00" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #

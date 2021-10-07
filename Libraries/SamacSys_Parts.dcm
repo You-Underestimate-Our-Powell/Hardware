@@ -61,4 +61,16 @@ K
 F https://www.molex.com/pdm_docs/sd/530480810_sd.pdf
 $ENDCMP
 #
+$CMP MRS25000C2053FCT00
+D Vishay MRS25 Series Axial Thin Film Resistor 205k +/-1% 0.6W +/-50ppm/C
+K
+F http://www.vishay.com/docs/28724/mrs16m25.pdf
+$ENDCMP
+#
+$CMP 860020672005
+D Wurth Elektronik 1uF 50 V dc Aluminium Electrolytic Capacitor, WCAP-ATG5 Series 2000h 5 (Dia.) x 11mm
+K
+F https://componentsearchengine.com/Datasheets/2/860020672005.pdf
+$ENDCMP
+#
 #End Doc Library
