@@ -73,4 +73,10 @@ K
 F https://componentsearchengine.com/Datasheets/2/860020672005.pdf
 $ENDCMP
 #
+$CMP SPM7054VT-680M-D
+D Inductors for power circuits, Wound metal, Automotive
+K
+F https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_power_spm7054vt-d_en.pdf
+$ENDCMP
+#
 #End Doc Library

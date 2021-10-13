@@ -188,25 +188,6 @@ Wire Wire Line
 Connection ~ 7700 2750
 Wire Wire Line
 	7700 2750 8200 2750
-$Comp
-L Capstone:SRN8040TA-101M L1
-U 1 1 61561B3F
-P 8200 2750
-F 0 "L1" H 8600 2975 50  0000 C CNN
-F 1 "SRN8040TA-101M" H 8600 2884 50  0000 C CNN
-F 2 "INDPM8080X450N" H 8850 2800 50  0001 L CNN
-F 3 "http://www.bourns.com/docs/Product-Datasheets/SRN8040TA.pdf" H 8850 2700 50  0001 L CNN
-F 4 "fixed Inductor 100uH 1.1A non-Shielded" H 8850 2600 50  0001 L CNN "Description"
-F 5 "4.5" H 8850 2500 50  0001 L CNN "Height"
-F 6 "Bourns" H 8850 2400 50  0001 L CNN "Manufacturer_Name"
-F 7 "SRN8040TA-101M" H 8850 2300 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "652-SRN8040TA-101M" H 8850 2200 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Bourns/SRN8040TA-101M?qs=Vt59ZOdFuWYPicTq%2FhiccQ%3D%3D" H 8850 2100 50  0001 L CNN "Mouser Price/Stock"
-F 10 "SRN8040TA-101M" H 8850 2000 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/srn8040ta-101m/bourns" H 8850 1900 50  0001 L CNN "Arrow Price/Stock"
-	1    8200 2750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9000 2750 9400 2750
 Wire Wire Line
@@ -723,4 +704,23 @@ Wire Wire Line
 	5050 1750 5400 1750
 Wire Wire Line
 	5050 2300 5050 2250
+$Comp
+L Capstone:SPM7054VT-680M-D L?
+U 1 1 6167E1EA
+P 8200 2750
+F 0 "L?" H 8600 2975 50  0000 C CNN
+F 1 "SPM7054VT-680M-D" H 8600 2884 50  0000 C CNN
+F 2 "SPM7054VT" H 8850 2800 50  0001 L CNN
+F 3 "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_power_spm7054vt-d_en.pdf" H 8850 2700 50  0001 L CNN
+F 4 "Inductors for power circuits, Wound metal, Automotive" H 8850 2600 50  0001 L CNN "Description"
+F 5 "" H 8850 2500 50  0001 L CNN "Height"
+F 6 "TDK" H 8850 2400 50  0001 L CNN "Manufacturer_Name"
+F 7 "SPM7054VT-680M-D" H 8850 2300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "810-SPM7054VT-680M-D" H 8850 2200 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/TDK/SPM7054VT-680M-D?qs=BJlw7L4Cy7%2F5GJUhXb8MnA%3D%3D" H 8850 2100 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 8850 2000 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 8850 1900 50  0001 L CNN "Arrow Price/Stock"
+	1    8200 2750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
