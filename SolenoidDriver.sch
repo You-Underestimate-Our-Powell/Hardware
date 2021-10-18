@@ -18,7 +18,7 @@ Solenoid_Driver_Input
 Wire Wire Line
 	6950 2000 6650 2000
 $Comp
-L Device:R R4
+L BoosterPack-rescue:R-Device R4
 U 1 1 6157706B
 P 4200 2000
 F 0 "R4" V 3993 2000 50  0000 C CNN
@@ -31,7 +31,7 @@ $EndComp
 Wire Wire Line
 	4350 2000 4550 2000
 $Comp
-L Device:C C10
+L BoosterPack-rescue:C-Device C10
 U 1 1 6157796B
 P 3950 2250
 F 0 "C10" V 3800 2150 50  0000 C CNN
@@ -93,7 +93,7 @@ Wire Wire Line
 	7750 2750 7600 2750
 Connection ~ 6950 2350
 $Comp
-L Device:CP C11
+L BoosterPack-rescue:CP-Device C11
 U 1 1 6157E351
 P 7150 2350
 F 0 "C11" V 7100 2250 50  0000 C CNN
@@ -104,7 +104,7 @@ F 3 "~" H 7150 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D11
+L BoosterPack-rescue:LED-Device D11
 U 1 1 615819DE
 P 7500 2100
 F 0 "D11" H 7493 2317 50  0000 C CNN
@@ -115,7 +115,7 @@ F 3 "~" H 7500 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R5
+L BoosterPack-rescue:R-Device R5
 U 1 1 6158256B
 P 7750 2250
 F 0 "R5" H 7820 2296 50  0000 L CNN
@@ -142,7 +142,7 @@ Wire Wire Line
 Text Notes 4800 2500 0    50   ~ 0
 NOTE: Driver is negative logic
 $Comp
-L power:GND #PWR0124
+L BoosterPack-rescue:GND-power #PWR0124
 U 1 1 6164E047
 P 3400 2600
 F 0 "#PWR0124" H 3400 2350 50  0001 C CNN
@@ -153,7 +153,7 @@ F 3 "" H 3400 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0125
+L BoosterPack-rescue:GND-power #PWR0125
 U 1 1 61651136
 P 3550 2250
 F 0 "#PWR0125" H 3550 2000 50  0001 C CNN
@@ -164,7 +164,7 @@ F 3 "" H 3550 2250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0126
+L BoosterPack-rescue:GND-power #PWR0126
 U 1 1 616517DF
 P 3550 2000
 F 0 "#PWR0126" H 3550 1750 50  0001 C CNN
@@ -179,7 +179,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 2250 3800 2250
 $Comp
-L power:GND #PWR0127
+L BoosterPack-rescue:GND-power #PWR0127
 U 1 1 61652A81
 P 7400 2350
 F 0 "#PWR0127" H 7400 2100 50  0001 C CNN
@@ -217,7 +217,7 @@ F 11 "https://www.arrow.com/en/products/drv103u2k5/texas-instruments" H 6500 120
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0128
+L BoosterPack-rescue:GND-power #PWR0128
 U 1 1 61654989
 P 3550 2900
 F 0 "#PWR0128" H 3550 2650 50  0001 C CNN
@@ -236,11 +236,12 @@ Wire Wire Line
 Wire Wire Line
 	6950 1750 7050 1750
 $Comp
-L Connector:TestPoint TP?
+L BoosterPack-rescue:TestPoint-Connector TP?
 U 1 1 6185655C
 P 4200 3150
 AR Path="/61536750/6185655C" Ref="TP?"  Part="1" 
 AR Path="/6153F75A/6185655C" Ref="TP22"  Part="1" 
+AR Path="/6185655C" Ref="TP22"  Part="1" 
 F 0 "TP22" H 4142 3176 50  0000 R CNN
 F 1 "GND Driver" H 4142 3267 50  0000 R CNN
 F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 4400 3150 50  0001 C CNN

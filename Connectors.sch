@@ -77,9 +77,11 @@ Rechargeable_Batteries
 Text HLabel 1450 4450 0    50   Input ~ 0
 VS
 $Comp
-L Connector:TestPoint TP9
+L BoosterPack-rescue:TestPoint-Connector TP9
 U 1 1 61624CC1
 P 2150 1650
+AR Path="/61624CC1" Ref="TP9"  Part="1" 
+AR Path="/61536750/61624CC1" Ref="TP9"  Part="1" 
 F 0 "TP9" H 2092 1676 50  0000 R CNN
 F 1 "TestPoint - Power Supply" H 2650 1900 50  0000 R CNN
 F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 2350 1650 50  0001 C CNN
@@ -88,9 +90,11 @@ F 3 "~" H 2350 1650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint TP6
+L BoosterPack-rescue:TestPoint-Connector TP6
 U 1 1 61627D05
 P 1800 2650
+AR Path="/61627D05" Ref="TP6"  Part="1" 
+AR Path="/61536750/61627D05" Ref="TP6"  Part="1" 
 F 0 "TP6" H 1858 2768 50  0000 L CNN
 F 1 "TestPoint - Rechargeable Batteries" H 1150 2900 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 2000 2650 50  0001 C CNN
@@ -106,9 +110,11 @@ Wire Wire Line
 	2050 2850 1800 2850
 Connection ~ 1800 2850
 $Comp
-L Connector:TestPoint TP10
+L BoosterPack-rescue:TestPoint-Connector TP10
 U 1 1 6162AC3A
 P 1650 4300
+AR Path="/6162AC3A" Ref="TP10"  Part="1" 
+AR Path="/61536750/6162AC3A" Ref="TP10"  Part="1" 
 F 0 "TP10" H 1708 4418 50  0000 L CNN
 F 1 "TestPoint - Electric Strike VS" H 1100 4550 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 1850 4300 50  0001 C CNN
@@ -175,7 +181,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 1200 5600 1200
 $Comp
-L power:GND #PWR0112
+L BoosterPack-rescue:GND-power #PWR0112
 U 1 1 61736CD0
 P 4350 3100
 F 0 "#PWR0112" H 4350 2850 50  0001 C CNN
@@ -186,7 +192,7 @@ F 3 "" H 4350 3100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0113
+L BoosterPack-rescue:GND-power #PWR0113
 U 1 1 61737540
 P 4300 2400
 F 0 "#PWR0113" H 4300 2150 50  0001 C CNN
@@ -197,7 +203,7 @@ F 3 "" H 4300 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0114
+L BoosterPack-rescue:GND-power #PWR0114
 U 1 1 61737FC4
 P 4300 1600
 F 0 "#PWR0114" H 4300 1350 50  0001 C CNN
@@ -218,7 +224,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 1400 5400 1400
 $Comp
-L power:GND #PWR0115
+L BoosterPack-rescue:GND-power #PWR0115
 U 1 1 61735922
 P 5850 2800
 F 0 "#PWR0115" H 5850 2550 50  0001 C CNN
@@ -229,7 +235,7 @@ F 3 "" H 5850 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0116
+L BoosterPack-rescue:GND-power #PWR0116
 U 1 1 61734F70
 P 5850 2600
 F 0 "#PWR0116" H 5850 2350 50  0001 C CNN
@@ -240,7 +246,7 @@ F 3 "" H 5850 2600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0117
+L BoosterPack-rescue:GND-power #PWR0117
 U 1 1 617345A9
 P 5850 2100
 F 0 "#PWR0117" H 5850 1850 50  0001 C CNN
@@ -251,7 +257,7 @@ F 3 "" H 5850 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0118
+L BoosterPack-rescue:GND-power #PWR0118
 U 1 1 61733D4A
 P 5850 1800
 F 0 "#PWR0118" H 5850 1550 50  0001 C CNN
@@ -262,7 +268,7 @@ F 3 "" H 5850 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0119
+L BoosterPack-rescue:GND-power #PWR0119
 U 1 1 6173051A
 P 5850 1400
 F 0 "#PWR0119" H 5850 1150 50  0001 C CNN
@@ -293,7 +299,7 @@ F 11 "" H 5250 400 50  0001 L CNN "Arrow Price/Stock"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0120
+L BoosterPack-rescue:GND-power #PWR0120
 U 1 1 61748007
 P 1050 1450
 F 0 "#PWR0120" H 1050 1200 50  0001 C CNN
@@ -304,7 +310,7 @@ F 3 "" H 1050 1450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0121
+L BoosterPack-rescue:GND-power #PWR0121
 U 1 1 61748F8F
 P 2250 1450
 F 0 "#PWR0121" H 2250 1200 50  0001 C CNN
@@ -315,7 +321,7 @@ F 3 "" H 2250 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0122
+L BoosterPack-rescue:GND-power #PWR0122
 U 1 1 6174BD93
 P 1600 2950
 F 0 "#PWR0122" H 1600 2700 50  0001 C CNN
@@ -464,7 +470,7 @@ Connection ~ 7250 2150
 Wire Wire Line
 	7250 2150 7550 2150
 $Comp
-L power:GND #PWR0123
+L BoosterPack-rescue:GND-power #PWR0123
 U 1 1 6175D652
 P 8650 1950
 F 0 "#PWR0123" H 8650 1700 50  0001 C CNN
@@ -535,9 +541,11 @@ Wire Wire Line
 Wire Wire Line
 	7800 2950 7800 3450
 $Comp
-L Connector:TestPoint TP12
+L BoosterPack-rescue:TestPoint-Connector TP12
 U 1 1 617C0D53
 P 6600 3450
+AR Path="/617C0D53" Ref="TP12"  Part="1" 
+AR Path="/61536750/617C0D53" Ref="TP12"  Part="1" 
 F 0 "TP12" V 6795 3522 50  0000 C CNN
 F 1 "Keypad 1" V 6700 3600 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 6800 3450 50  0001 C CNN
@@ -546,9 +554,11 @@ F 3 "~" H 6800 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP13
+L BoosterPack-rescue:TestPoint-Connector TP13
 U 1 1 617C1E13
 P 7200 3450
+AR Path="/617C1E13" Ref="TP13"  Part="1" 
+AR Path="/61536750/617C1E13" Ref="TP13"  Part="1" 
 F 0 "TP13" V 7395 3522 50  0000 C CNN
 F 1 "Keypad 2" V 7300 3600 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 7400 3450 50  0001 C CNN
@@ -557,9 +567,11 @@ F 3 "~" H 7400 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP15
+L BoosterPack-rescue:TestPoint-Connector TP15
 U 1 1 617C4443
 P 7750 3450
+AR Path="/617C4443" Ref="TP15"  Part="1" 
+AR Path="/61536750/617C4443" Ref="TP15"  Part="1" 
 F 0 "TP15" V 7945 3522 50  0000 C CNN
 F 1 "Keypad 3" V 7850 3600 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 7950 3450 50  0001 C CNN
@@ -568,9 +580,11 @@ F 3 "~" H 7950 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP16
+L BoosterPack-rescue:TestPoint-Connector TP16
 U 1 1 617C6A91
 P 8350 3450
+AR Path="/617C6A91" Ref="TP16"  Part="1" 
+AR Path="/61536750/617C6A91" Ref="TP16"  Part="1" 
 F 0 "TP16" V 8545 3522 50  0000 C CNN
 F 1 "Keypad 4" V 8450 3600 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 8550 3450 50  0001 C CNN
@@ -579,9 +593,11 @@ F 3 "~" H 8550 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP17
+L BoosterPack-rescue:TestPoint-Connector TP17
 U 1 1 617C908C
 P 8850 3450
+AR Path="/617C908C" Ref="TP17"  Part="1" 
+AR Path="/61536750/617C908C" Ref="TP17"  Part="1" 
 F 0 "TP17" V 9045 3522 50  0000 C CNN
 F 1 "Keypad 5" V 8950 3600 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 9050 3450 50  0001 C CNN
@@ -590,9 +606,11 @@ F 3 "~" H 9050 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP18
+L BoosterPack-rescue:TestPoint-Connector TP18
 U 1 1 617CB7E4
 P 9450 3450
+AR Path="/617CB7E4" Ref="TP18"  Part="1" 
+AR Path="/61536750/617CB7E4" Ref="TP18"  Part="1" 
 F 0 "TP18" V 9645 3522 50  0000 C CNN
 F 1 "Keypad 6" V 9550 3600 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 9650 3450 50  0001 C CNN
@@ -623,9 +641,11 @@ Connection ~ 9500 3450
 Wire Wire Line
 	9500 3450 9500 2950
 $Comp
-L Connector:TestPoint TP20
+L BoosterPack-rescue:TestPoint-Connector TP20
 U 1 1 617EBE74
 P 10050 3450
+AR Path="/617EBE74" Ref="TP20"  Part="1" 
+AR Path="/61536750/617EBE74" Ref="TP20"  Part="1" 
 F 0 "TP20" V 10245 3522 50  0000 C CNN
 F 1 "Keypad 7" V 10150 3600 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 10250 3450 50  0001 C CNN
@@ -634,9 +654,11 @@ F 3 "~" H 10250 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP21
+L BoosterPack-rescue:TestPoint-Connector TP21
 U 1 1 617EEBE7
 P 10650 3450
+AR Path="/617EEBE7" Ref="TP21"  Part="1" 
+AR Path="/61536750/617EEBE7" Ref="TP21"  Part="1" 
 F 0 "TP21" V 10845 3522 50  0000 C CNN
 F 1 "Keypad 8" V 10750 3600 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 10850 3450 50  0001 C CNN
@@ -661,9 +683,11 @@ Wire Wire Line
 Text HLabel 1450 4550 0    50   Input ~ 0
 Control
 $Comp
-L Connector:TestPoint TP11
+L BoosterPack-rescue:TestPoint-Connector TP11
 U 1 1 6180A68B
 P 1650 4750
+AR Path="/6180A68B" Ref="TP11"  Part="1" 
+AR Path="/61536750/6180A68B" Ref="TP11"  Part="1" 
 F 0 "TP11" H 1708 4868 50  0000 L CNN
 F 1 "TestPoint - Electric Strike Control" H 1000 5000 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 1850 4750 50  0001 C CNN
@@ -683,9 +707,11 @@ Wire Wire Line
 Wire Wire Line
 	1950 1450 2150 1450
 $Comp
-L Connector:TestPoint TP7
+L BoosterPack-rescue:TestPoint-Connector TP7
 U 1 1 61828BFF
 P 1800 3100
+AR Path="/61828BFF" Ref="TP7"  Part="1" 
+AR Path="/61536750/61828BFF" Ref="TP7"  Part="1" 
 F 0 "TP7" H 1858 3218 50  0000 L CNN
 F 1 "TestPoint - GND Rechargeable Batteries" H 1000 3350 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 2000 3100 50  0001 C CNN
@@ -699,9 +725,11 @@ Connection ~ 1800 2950
 Wire Wire Line
 	1800 2950 2050 2950
 $Comp
-L Connector:TestPoint TP8
+L BoosterPack-rescue:TestPoint-Connector TP8
 U 1 1 6182F7F2
 P 2150 1350
+AR Path="/6182F7F2" Ref="TP8"  Part="1" 
+AR Path="/61536750/6182F7F2" Ref="TP8"  Part="1" 
 F 0 "TP8" H 2208 1468 50  0000 L CNN
 F 1 "TestPoint - GND VCC" H 1750 1600 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 2350 1350 50  0001 C CNN
@@ -715,9 +743,11 @@ Connection ~ 2150 1450
 Wire Wire Line
 	2150 1450 2250 1450
 $Comp
-L Connector:TestPoint TP14
+L BoosterPack-rescue:TestPoint-Connector TP14
 U 1 1 61839E0C
 P 7550 1900
+AR Path="/61839E0C" Ref="TP14"  Part="1" 
+AR Path="/61536750/61839E0C" Ref="TP14"  Part="1" 
 F 0 "TP14" H 7608 2018 50  0000 L CNN
 F 1 "GND Keypad" H 7608 1927 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 7750 1900 50  0001 C CNN
@@ -731,9 +761,11 @@ Connection ~ 7550 2150
 Wire Wire Line
 	7550 2150 7800 2150
 $Comp
-L Connector:TestPoint TP19
+L BoosterPack-rescue:TestPoint-Connector TP19
 U 1 1 61841CC3
 P 9750 1900
+AR Path="/61841CC3" Ref="TP19"  Part="1" 
+AR Path="/61536750/61841CC3" Ref="TP19"  Part="1" 
 F 0 "TP19" H 9808 2018 50  0000 L CNN
 F 1 "GND Keypad" H 9808 1927 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 9950 1900 50  0001 C CNN

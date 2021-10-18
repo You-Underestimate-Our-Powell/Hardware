@@ -52,7 +52,7 @@ F 11 "https://www.arrow.com/en/products/l4940d2t12-tr/stmicroelectronics" H 6600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C9
+L BoosterPack-rescue:CP-Device C9
 U 1 1 61548B4E
 P 9400 2900
 F 0 "C9" H 9518 2946 50  0000 L CNN
@@ -84,7 +84,7 @@ Wire Wire Line
 	7050 2550 7050 2450
 Connection ~ 7050 2450
 $Comp
-L Device:C C3
+L BoosterPack-rescue:C-Device C3
 U 1 1 6154C168
 P 4750 2800
 F 0 "C3" H 4865 2846 50  0000 L CNN
@@ -97,7 +97,7 @@ $EndComp
 Wire Wire Line
 	5650 2650 4750 2650
 $Comp
-L Device:R R2
+L BoosterPack-rescue:R-Device R2
 U 1 1 6154CCF0
 P 5400 2900
 F 0 "R2" H 5600 2850 50  0000 R CNN
@@ -113,7 +113,7 @@ Connection ~ 5400 2550
 Wire Wire Line
 	5400 3050 5650 3050
 $Comp
-L Device:C C5
+L BoosterPack-rescue:C-Device C5
 U 1 1 6154DB48
 P 5400 3250
 F 0 "C5" H 5150 3300 50  0000 L CNN
@@ -127,7 +127,7 @@ Wire Wire Line
 	5400 3100 5400 3050
 Connection ~ 5400 3050
 $Comp
-L Device:C C8
+L BoosterPack-rescue:C-Device C8
 U 1 1 6154E910
 P 6300 3550
 F 0 "C8" V 6450 3450 50  0000 C CNN
@@ -218,7 +218,7 @@ Wire Wire Line
 Connection ~ 7100 3550
 Connection ~ 9400 2750
 $Comp
-L Device:C C6
+L BoosterPack-rescue:C-Device C6
 U 1 1 6156AEE8
 P 6150 4500
 F 0 "C6" V 5898 4500 50  0000 C CNN
@@ -235,7 +235,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 4500 6000 4500
 $Comp
-L Device:CP C7
+L BoosterPack-rescue:CP-Device C7
 U 1 1 6156D3FC
 P 6150 5350
 F 0 "C7" V 5900 5350 50  0000 C CNN
@@ -251,7 +251,7 @@ Wire Wire Line
 	5550 5350 6000 5350
 Connection ~ 5450 4500
 $Comp
-L Device:CP C2
+L BoosterPack-rescue:CP-Device C2
 U 1 1 61572EC3
 P 4300 1900
 F 0 "C2" H 4418 1946 50  0000 L CNN
@@ -282,7 +282,7 @@ F 11 "https://www.arrow.com/en/products/ltc4372ims8trpbf/analog-devices" H 3400 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1
+L BoosterPack-rescue:C-Device C1
 U 1 1 615927B4
 P 3750 2850
 F 0 "C1" H 3865 2896 50  0000 L CNN
@@ -308,7 +308,7 @@ Wire Wire Line
 Text Label 1800 2550 0    50   ~ 0
 Vin
 $Comp
-L Device:R R1
+L BoosterPack-rescue:R-Device R1
 U 1 1 615CD244
 P 1600 2050
 F 0 "R1" H 1670 2096 50  0000 L CNN
@@ -319,7 +319,7 @@ F 3 "~" H 1600 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D1
+L BoosterPack-rescue:D-Device D1
 U 1 1 615CDA63
 P 1300 1750
 F 0 "D1" H 1300 1533 50  0000 C CNN
@@ -366,11 +366,12 @@ Text HLabel 10450 2750 2    50   Output ~ 0
 Text HLabel 4050 5050 0    50   Output ~ 0
 VS
 $Comp
-L Connector:TestPoint TP?
+L BoosterPack-rescue:TestPoint-Connector TP?
 U 1 1 6162E091
 P 4250 5250
 AR Path="/61536750/6162E091" Ref="TP?"  Part="1" 
 AR Path="/6153BBA2/6162E091" Ref="TP2"  Part="1" 
+AR Path="/6162E091" Ref="TP2"  Part="1" 
 F 0 "TP2" H 4192 5276 50  0000 R CNN
 F 1 "TestPoint - 12V Reg" H 4192 5367 50  0000 R CNN
 F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 4450 5250 50  0001 C CNN
@@ -387,11 +388,12 @@ Wire Wire Line
 Connection ~ 4250 5050
 Connection ~ 5550 5050
 $Comp
-L Connector:TestPoint TP?
+L BoosterPack-rescue:TestPoint-Connector TP?
 U 1 1 6163C53C
 P 10150 2600
 AR Path="/61536750/6163C53C" Ref="TP?"  Part="1" 
 AR Path="/6153BBA2/6163C53C" Ref="TP5"  Part="1" 
+AR Path="/6163C53C" Ref="TP5"  Part="1" 
 F 0 "TP5" H 10208 2718 50  0000 L CNN
 F 1 "TestPoint - 5V Reg" H 10208 2627 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 10350 2600 50  0001 C CNN
@@ -408,11 +410,12 @@ Wire Wire Line
 	10450 2750 10150 2750
 Connection ~ 10150 2750
 $Comp
-L Connector:TestPoint TP?
+L BoosterPack-rescue:TestPoint-Connector TP?
 U 1 1 61644C04
 P 3600 1550
 AR Path="/61536750/61644C04" Ref="TP?"  Part="1" 
 AR Path="/6153BBA2/61644C04" Ref="TP1"  Part="1" 
+AR Path="/61644C04" Ref="TP1"  Part="1" 
 F 0 "TP1" H 3658 1668 50  0000 L CNN
 F 1 "TestPoint - Power Circuit Out" H 3658 1577 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 3800 1550 50  0001 C CNN
@@ -491,7 +494,7 @@ Wire Wire Line
 Connection ~ 1950 4050
 Connection ~ 2950 3450
 $Comp
-L power:GND #PWR0101
+L BoosterPack-rescue:GND-power #PWR0101
 U 1 1 61689C6A
 P 3750 3100
 F 0 "#PWR0101" H 3750 2850 50  0001 C CNN
@@ -504,7 +507,7 @@ $EndComp
 Wire Wire Line
 	3750 3100 3750 3000
 $Comp
-L power:GND #PWR0102
+L BoosterPack-rescue:GND-power #PWR0102
 U 1 1 6169BE0B
 P 3650 2300
 F 0 "#PWR0102" H 3650 2050 50  0001 C CNN
@@ -517,7 +520,7 @@ $EndComp
 Wire Wire Line
 	3650 2300 3550 2300
 $Comp
-L power:GND #PWR0103
+L BoosterPack-rescue:GND-power #PWR0103
 U 1 1 6169F36F
 P 3650 2500
 F 0 "#PWR0103" H 3650 2250 50  0001 C CNN
@@ -530,7 +533,7 @@ $EndComp
 Wire Wire Line
 	3650 2500 3550 2500
 $Comp
-L power:GND #PWR0104
+L BoosterPack-rescue:GND-power #PWR0104
 U 1 1 616A64FD
 P 4300 2150
 F 0 "#PWR0104" H 4300 1900 50  0001 C CNN
@@ -543,7 +546,7 @@ $EndComp
 Wire Wire Line
 	4300 2150 4300 2050
 $Comp
-L power:GND #PWR0105
+L BoosterPack-rescue:GND-power #PWR0105
 U 1 1 616ACF0A
 P 5050 2300
 F 0 "#PWR0105" H 5050 2050 50  0001 C CNN
@@ -554,7 +557,7 @@ F 3 "" H 5050 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0106
+L BoosterPack-rescue:GND-power #PWR0106
 U 1 1 616B3AEC
 P 4750 3050
 F 0 "#PWR0106" H 4750 2800 50  0001 C CNN
@@ -567,7 +570,7 @@ $EndComp
 Wire Wire Line
 	4750 3050 4750 2950
 $Comp
-L power:GND #PWR0107
+L BoosterPack-rescue:GND-power #PWR0107
 U 1 1 616BA4E5
 P 5400 3500
 F 0 "#PWR0107" H 5400 3250 50  0001 C CNN
@@ -582,7 +585,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 2950 7100 3050
 $Comp
-L power:GND #PWR0108
+L BoosterPack-rescue:GND-power #PWR0108
 U 1 1 616C1223
 P 7350 3000
 F 0 "#PWR0108" H 7350 2750 50  0001 C CNN
@@ -593,7 +596,7 @@ F 3 "" H 7350 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0109
+L BoosterPack-rescue:GND-power #PWR0109
 U 1 1 616C7A61
 P 9400 3150
 F 0 "#PWR0109" H 9400 2900 50  0001 C CNN
@@ -610,7 +613,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 2750 9850 3800
 $Comp
-L power:GND #PWR0110
+L BoosterPack-rescue:GND-power #PWR0110
 U 1 1 616D8001
 P 7700 3550
 F 0 "#PWR0110" H 7700 3300 50  0001 C CNN
@@ -623,7 +626,7 @@ $EndComp
 Wire Wire Line
 	7700 3550 7700 3450
 $Comp
-L power:GND #PWR0111
+L BoosterPack-rescue:GND-power #PWR0111
 U 1 1 616DE601
 P 7000 4950
 F 0 "#PWR0111" H 7000 4700 50  0001 C CNN
@@ -656,11 +659,12 @@ Wire Wire Line
 Wire Wire Line
 	7100 3000 7350 3000
 $Comp
-L Connector:TestPoint TP?
+L BoosterPack-rescue:TestPoint-Connector TP?
 U 1 1 6184DFD4
 P 7200 3250
 AR Path="/61536750/6184DFD4" Ref="TP?"  Part="1" 
 AR Path="/6153BBA2/6184DFD4" Ref="TP4"  Part="1" 
+AR Path="/6184DFD4" Ref="TP4"  Part="1" 
 F 0 "TP4" H 7000 3400 50  0000 L CNN
 F 1 "GND 5V Reg" H 6800 3500 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 7400 3250 50  0001 C CNN
@@ -671,11 +675,12 @@ $EndComp
 Wire Wire Line
 	7200 3250 7200 3000
 $Comp
-L Connector:TestPoint TP?
+L BoosterPack-rescue:TestPoint-Connector TP?
 U 1 1 61852063
 P 7150 5150
 AR Path="/61536750/61852063" Ref="TP?"  Part="1" 
 AR Path="/6153BBA2/61852063" Ref="TP3"  Part="1" 
+AR Path="/61852063" Ref="TP3"  Part="1" 
 F 0 "TP3" V 7104 5338 50  0000 L CNN
 F 1 "GND 12V Reg" V 7195 5338 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded" H 7350 5150 50  0001 C CNN
