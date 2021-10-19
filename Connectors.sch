@@ -491,7 +491,7 @@ Connection ~ 8900 2150
 Wire Wire Line
 	8900 2150 8650 2150
 Wire Wire Line
-	10100 2150 9500 2150
+	10100 2150 9750 2150
 Wire Wire Line
 	9500 2350 9500 2150
 Connection ~ 9500 2150
@@ -774,8 +774,6 @@ F 3 "~" H 9950 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9750 1900 9750 2150
-Wire Wire Line
 	10700 3450 10700 4650
 Wire Wire Line
 	9500 3450 9500 4450
@@ -878,5 +876,54 @@ F 10 "" H 5500 3950 50  0001 L CNN "Arrow Part Number"
 F 11 "" H 5500 3850 50  0001 L CNN "Arrow Price/Stock"
 	1    4850 4650
 	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9750 1900 9750 2150
+Connection ~ 9750 2150
+Wire Wire Line
+	9750 2150 9500 2150
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 617417BD
+P 3100 1300
+F 0 "H?" H 3200 1346 50  0000 L CNN
+F 1 "MountingHole" H 3200 1255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 3100 1300 50  0001 C CNN
+F 3 "~" H 3100 1300 50  0001 C CNN
+	1    3100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 6174245A
+P 3100 1100
+F 0 "H?" H 3200 1146 50  0000 L CNN
+F 1 "MountingHole" H 3200 1055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 3100 1100 50  0001 C CNN
+F 3 "~" H 3100 1100 50  0001 C CNN
+	1    3100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 617426E0
+P 3100 900
+F 0 "H?" H 3200 946 50  0000 L CNN
+F 1 "MountingHole" H 3200 855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 3100 900 50  0001 C CNN
+F 3 "~" H 3100 900 50  0001 C CNN
+	1    3100 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 617428AC
+P 3100 700
+F 0 "H?" H 3200 746 50  0000 L CNN
+F 1 "MountingHole" H 3200 655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 3100 700 50  0001 C CNN
+F 3 "~" H 3100 700 50  0001 C CNN
+	1    3100 700 
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

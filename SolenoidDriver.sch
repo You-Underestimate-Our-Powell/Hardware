@@ -228,7 +228,7 @@ F 3 "" H 3550 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3550 2900 4400 2900
+	3550 2900 4200 2900
 Wire Wire Line
 	4400 2900 4400 2300
 Wire Wire Line
@@ -249,8 +249,6 @@ F 3 "~" H 4400 3150 50  0001 C CNN
 	1    4200 3150
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4200 3150 4200 2900
 Text Label 5250 1650 0    50   ~ 0
 Solenoid_Driver_IC
 $Comp
@@ -272,4 +270,9 @@ F 11 "" H 3950 1750 50  0001 L CNN "Arrow Price/Stock"
 	1    3400 2600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4200 3150 4200 2900
+Connection ~ 4200 2900
+Wire Wire Line
+	4200 2900 4400 2900
 $EndSCHEMATC

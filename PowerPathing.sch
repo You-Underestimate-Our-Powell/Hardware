@@ -33,25 +33,6 @@ F 11 "" H 6800 1650 50  0001 L CNN "Arrow Price/Stock"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capstone:L4940D2T12-TR IC2
-U 1 1 6153E2DB
-P 5550 4950
-F 0 "IC2" H 6150 5215 50  0000 C CNN
-F 1 "L4940D2T12-TR" H 6150 5124 50  0000 C CNN
-F 2 "TO254P1542X460-3N" H 6600 5050 50  0001 L CNN
-F 3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000442.pdf" H 6600 4950 50  0001 L CNN
-F 4 "L4940D2T12-TR, Low Dropout Voltage Regulator, 1.5A, 12 V, 3-Pin D2PAK" H 6600 4850 50  0001 L CNN "Description"
-F 5 "4.6" H 6600 4750 50  0001 L CNN "Height"
-F 6 "STMicroelectronics" H 6600 4650 50  0001 L CNN "Manufacturer_Name"
-F 7 "L4940D2T12-TR" H 6600 4550 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "511-L4940D2T12-TR" H 6600 4450 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L4940D2T12-TR?qs=riAxU6JNBCuKgVOJv3%252BxRA%3D%3D" H 6600 4350 50  0001 L CNN "Mouser Price/Stock"
-F 10 "L4940D2T12-TR" H 6600 4250 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/l4940d2t12-tr/stmicroelectronics" H 6600 4150 50  0001 L CNN "Arrow Price/Stock"
-	1    5550 4950
-	1    0    0    -1  
-$EndComp
-$Comp
 L BoosterPack-rescue:CP-Device C9
 U 1 1 61548B4E
 P 9400 2900
@@ -386,7 +367,6 @@ Wire Wire Line
 Wire Wire Line
 	4250 5050 5550 5050
 Connection ~ 4250 5050
-Connection ~ 5550 5050
 $Comp
 L BoosterPack-rescue:TestPoint-Connector TP?
 U 1 1 6163C53C
@@ -583,7 +563,7 @@ $EndComp
 Wire Wire Line
 	5400 3500 5400 3400
 Wire Wire Line
-	7100 2950 7100 3050
+	7100 2950 7100 3000
 $Comp
 L BoosterPack-rescue:GND-power #PWR0108
 U 1 1 616C1223
@@ -643,8 +623,6 @@ Wire Wire Line
 Wire Wire Line
 	6300 4500 6900 4500
 Wire Wire Line
-	6900 5350 6900 4950
-Wire Wire Line
 	6300 5350 6900 5350
 Connection ~ 6900 4950
 Wire Wire Line
@@ -656,8 +634,6 @@ Wire Wire Line
 	3600 2600 3750 2600
 Wire Wire Line
 	6750 4950 6900 4950
-Wire Wire Line
-	7100 3000 7350 3000
 $Comp
 L BoosterPack-rescue:TestPoint-Connector TP?
 U 1 1 6184DFD4
@@ -672,8 +648,6 @@ F 3 "~" H 7400 3250 50  0001 C CNN
 	1    7200 3250
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7200 3250 7200 3000
 $Comp
 L BoosterPack-rescue:TestPoint-Connector TP?
 U 1 1 61852063
@@ -688,8 +662,6 @@ F 3 "~" H 7350 5150 50  0001 C CNN
 	1    7150 5150
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7150 5150 6900 5150
 Text Label 5850 2100 0    50   ~ 0
 5V_Switching_Regulator
 Text Label 5800 4150 0    50   ~ 0
@@ -698,7 +670,6 @@ Text Label 2550 1950 0    50   ~ 0
 Ideal_Diode_Controller
 Text Label 2250 3100 0    50   ~ 0
 MOSFET_for_IDC
-NoConn ~ 2950 3750
 NoConn ~ 5650 2950
 NoConn ~ 5650 2850
 NoConn ~ 5650 2750
@@ -728,4 +699,44 @@ Wire Wire Line
 	5050 1750 5400 1750
 Wire Wire Line
 	5050 2300 5050 2250
+Wire Wire Line
+	2950 3750 2950 3650
+Connection ~ 2950 3650
+Wire Wire Line
+	6900 5350 6900 5150
+$Comp
+L Capstone:L4940D2T12-TR IC2
+U 1 1 617121F7
+P 5550 4950
+F 0 "IC2" H 6150 5215 50  0000 C CNN
+F 1 "L4940D2T12-TR" H 6150 5124 50  0000 C CNN
+F 2 "TO254P1542X460-3N" H 6600 5050 50  0001 L CNN
+F 3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000442.pdf" H 6600 4950 50  0001 L CNN
+F 4 "L4940D2T12-TR, Low Dropout Voltage Regulator, 1.5A, 12 V, 3-Pin D2PAK" H 6600 4850 50  0001 L CNN "Description"
+F 5 "4.6" H 6600 4750 50  0001 L CNN "Height"
+F 6 "STMicroelectronics" H 6600 4650 50  0001 L CNN "Manufacturer_Name"
+F 7 "L4940D2T12-TR" H 6600 4550 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "511-L4940D2T12-TR" H 6600 4450 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L4940D2T12-TR?qs=riAxU6JNBCuKgVOJv3%252BxRA%3D%3D" H 6600 4350 50  0001 L CNN "Mouser Price/Stock"
+F 10 "L4940D2T12-TR" H 6600 4250 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/l4940d2t12-tr/stmicroelectronics" H 6600 4150 50  0001 L CNN "Arrow Price/Stock"
+	1    5550 4950
+	1    0    0    -1  
+$EndComp
+Connection ~ 5550 5050
+Wire Wire Line
+	7150 5150 6900 5150
+Connection ~ 6900 5150
+Wire Wire Line
+	6900 5150 6900 4950
+Wire Wire Line
+	7350 3000 7200 3000
+Connection ~ 7100 3000
+Wire Wire Line
+	7100 3000 7100 3050
+Wire Wire Line
+	7200 3250 7200 3000
+Connection ~ 7200 3000
+Wire Wire Line
+	7200 3000 7100 3000
 $EndSCHEMATC

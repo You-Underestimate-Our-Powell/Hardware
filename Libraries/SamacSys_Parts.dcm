@@ -1,8 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 53048-0810
+D 8CKT R/A WAFER ASSY ROHS COMPLIANT: YES
+F https://www.molex.com/pdm_docs/sd/530480810_sd.pdf
+$ENDCMP
+#
 $CMP 691137710002
 D Wurth Elektronik WR-TBL Series 5mm Pitch, 2 Way, PCB Terminal Block, Through Hole
 F https://katalog.we-online.com/em/datasheet/691137710002.pdf
+$ENDCMP
+#
+$CMP 860020672005
+D Wurth Elektronik 1uF 50 V dc Aluminium Electrolytic Capacitor, WCAP-ATG5 Series 2000h 5 (Dia.) x 11mm
+F https://componentsearchengine.com/Datasheets/2/860020672005.pdf
 $ENDCMP
 #
 $CMP BSC026NE2LS5ATMA1
@@ -20,11 +30,6 @@ D STMicroelectronics ESDALC6V1-1U2, Uni-Directional TVS Diode, 20W, 2-Pin ST-020
 F http://www.st.com/web/en/resource/technical/document/datasheet/CD00212838.pdf
 $ENDCMP
 #
-$CMP L4940D2T12-TR
-D L4940D2T12-TR, Low Dropout Voltage Regulator, 1.5A, 12 V, 3-Pin D2PAK
-F http://www.st.com/web/en/resource/technical/document/datasheet/CD00000442.pdf
-$ENDCMP
-#
 $CMP LTC4372IMS8#TRPBF
 D Power Management Specialized - PMIC Low Icc Ideal Diode Controller w/SHDN
 F https://www.arrow.com/en/products/ltc4372ims8trpbf/analog-devices
@@ -33,6 +38,11 @@ $ENDCMP
 $CMP MAX738ACWE+
 D DC-DC Converter, Step Down 6V to 16V
 F http://docs-emea.rs-online.com/webdocs/0f72/0900766b80f72edc.pdf
+$ENDCMP
+#
+$CMP MRS25000C2053FCT00
+D Vishay MRS25 Series Axial Thin Film Resistor 205k +/-1% 0.6W +/-50ppm/C
+F http://www.vishay.com/docs/28724/mrs16m25.pdf
 $ENDCMP
 #
 $CMP PJ-002A
@@ -55,22 +65,10 @@ D fixed Inductor 100uH 1.1A non-Shielded
 F http://www.bourns.com/docs/Product-Datasheets/SRN8040TA.pdf
 $ENDCMP
 #
-$CMP 53048-0810
-D 8CKT R/A WAFER ASSY ROHS COMPLIANT: YES
+$CMP L4940D2T12-TR
+D L4940D2T12-TR, Low Dropout Voltage Regulator, 1.5A, 12 V, 3-Pin D2PAK
 K
-F https://www.molex.com/pdm_docs/sd/530480810_sd.pdf
-$ENDCMP
-#
-$CMP MRS25000C2053FCT00
-D Vishay MRS25 Series Axial Thin Film Resistor 205k +/-1% 0.6W +/-50ppm/C
-K
-F http://www.vishay.com/docs/28724/mrs16m25.pdf
-$ENDCMP
-#
-$CMP 860020672005
-D Wurth Elektronik 1uF 50 V dc Aluminium Electrolytic Capacitor, WCAP-ATG5 Series 2000h 5 (Dia.) x 11mm
-K
-F https://componentsearchengine.com/Datasheets/2/860020672005.pdf
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00000442.pdf
 $ENDCMP
 #
 #End Doc Library
