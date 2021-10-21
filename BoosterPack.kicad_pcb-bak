@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 3)
+    (drawings 4)
     (tracks 287)
     (zones 0)
     (modules 65)
@@ -1288,7 +1288,7 @@
     (descr 53048-0810-1)
     (tags Connector)
     (path /61536750/615E5D56)
-    (fp_text reference J4 (at -12.7 1.905) (layer F.SilkS)
+    (fp_text reference J4 (at 1.905 -6.985) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     )
     (fp_text value 53048-0810 (at -4.375 -1.5) (layer Dwgs.User) hide
@@ -2508,6 +2508,9 @@
     )
   )
 
+  (gr_text "You Underestimate Our Powell\nJohn Chrosniak\nAJ Given\nDerek Martin\nJamison Stevens" (at 113.665 50.8) (layer F.SilkS)
+    (effects (font (size 1.2 1.2) (thickness 0.3)) (justify left))
+  )
   (dimension 88.9 (width 0.15) (layer Dwgs.User)
     (gr_text "3.5 in" (at 139.7 35.53) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
