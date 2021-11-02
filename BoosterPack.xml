@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\chros\Documents\ECE Capstone\Hardware\BoosterPack.sch</source>
-    <date>10/6/2021 6:01:26 PM</date>
+    <source>C:\Users\student\Documents\capstone\repositories\Hardware\BoosterPack.sch</source>
+    <date>11/2/2021 1:29:28 PM</date>
     <tool>Eeschema (5.1.10)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -74,63 +74,43 @@
       <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
       <tstamp>6153C30A</tstamp>
     </comp>
-    <comp ref="IC2">
-      <value>L4940D2T12-TR</value>
-      <footprint>TO254P1542X460-3N</footprint>
-      <datasheet>http://www.st.com/web/en/resource/technical/document/datasheet/CD00000442.pdf</datasheet>
-      <fields>
-        <field name="Arrow Part Number">L4940D2T12-TR</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/l4940d2t12-tr/stmicroelectronics</field>
-        <field name="Description">L4940D2T12-TR, Low Dropout Voltage Regulator, 1.5A, 12 V, 3-Pin D2PAK</field>
-        <field name="Height">4.6</field>
-        <field name="Manufacturer_Name">STMicroelectronics</field>
-        <field name="Manufacturer_Part_Number">L4940D2T12-TR</field>
-        <field name="Mouser Part Number">511-L4940D2T12-TR</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L4940D2T12-TR?qs=riAxU6JNBCuKgVOJv3%252BxRA%3D%3D</field>
-      </fields>
-      <libsource lib="Capstone" part="L4940D2T12-TR" description="L4940D2T12-TR, Low Dropout Voltage Regulator, 1.5A, 12 V, 3-Pin D2PAK"/>
-      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
-      <tstamp>6153E2DB</tstamp>
-    </comp>
     <comp ref="C9">
       <value>100u</value>
+      <footprint>Capstone:CAPPRD200W52D500H1250</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <libsource lib="BoosterPack-rescue" part="CP-Device" description=""/>
       <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
       <tstamp>61548B4E</tstamp>
     </comp>
-    <comp ref="C4">
-      <value>1u</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
-      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
-      <tstamp>61549C3D</tstamp>
-    </comp>
     <comp ref="C3">
       <value>10n</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="BoosterPack-rescue" part="C-Device" description=""/>
       <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
       <tstamp>6154C168</tstamp>
     </comp>
     <comp ref="R2">
       <value>510k</value>
+      <footprint>Capstone:RESAD1650W60L650D250</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="BoosterPack-rescue" part="R-Device" description=""/>
       <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
       <tstamp>6154CCF0</tstamp>
     </comp>
     <comp ref="C5">
       <value>0.1u</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="BoosterPack-rescue" part="C-Device" description=""/>
       <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
       <tstamp>6154DB48</tstamp>
     </comp>
     <comp ref="C8">
       <value>330p</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="BoosterPack-rescue" part="C-Device" description=""/>
       <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
       <tstamp>6154E910</tstamp>
     </comp>
@@ -172,22 +152,25 @@
     </comp>
     <comp ref="C6">
       <value>0.1u</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="BoosterPack-rescue" part="C-Device" description=""/>
       <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
       <tstamp>6156AEE8</tstamp>
     </comp>
     <comp ref="C7">
       <value>22u</value>
+      <footprint>Capstone:CAPPRD200W52D500H1250</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <libsource lib="BoosterPack-rescue" part="CP-Device" description=""/>
       <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
       <tstamp>6156D3FC</tstamp>
     </comp>
     <comp ref="C2">
       <value>68u</value>
+      <footprint>CAPPRD200W52D500H1250</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <libsource lib="BoosterPack-rescue" part="CP-Device" description=""/>
       <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
       <tstamp>61572EC3</tstamp>
     </comp>
@@ -211,43 +194,49 @@
     </comp>
     <comp ref="C1">
       <value>100n</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="BoosterPack-rescue" part="C-Device" description=""/>
       <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
       <tstamp>615927B4</tstamp>
     </comp>
     <comp ref="R1">
-      <value>111 ohms</value>
+      <value>111</value>
+      <footprint>Capstone:RESAD1650W60L650D250</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="BoosterPack-rescue" part="R-Device" description=""/>
       <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
       <tstamp>615CD244</tstamp>
     </comp>
     <comp ref="D1">
       <value>1N4001G</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="D" description="Diode"/>
+      <libsource lib="BoosterPack-rescue" part="D-Device" description=""/>
       <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
       <tstamp>615CDA63</tstamp>
     </comp>
     <comp ref="TP2">
       <value>TestPoint - 12V Reg</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="BoosterPack-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
       <tstamp>6162E091</tstamp>
     </comp>
     <comp ref="TP5">
       <value>TestPoint - 5V Reg</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="BoosterPack-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
       <tstamp>6163C53C</tstamp>
     </comp>
     <comp ref="TP1">
       <value>TestPoint - Power Circuit Out</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="BoosterPack-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
       <tstamp>61644C04</tstamp>
     </comp>
@@ -271,17 +260,53 @@
     </comp>
     <comp ref="TP4">
       <value>GND 5V Reg</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="BoosterPack-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
       <tstamp>6184DFD4</tstamp>
     </comp>
     <comp ref="TP3">
       <value>GND 12V Reg</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="BoosterPack-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
       <tstamp>61852063</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>860020672005</value>
+      <footprint>CAPPRD200W52D500H1250</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/860020672005.pdf</datasheet>
+      <fields>
+        <field name="Description">Wurth Elektronik 1uF 50 V dc Aluminium Electrolytic Capacitor, WCAP-ATG5 Series 2000h 5 (Dia.) x 11mm</field>
+        <field name="Height">12.5</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">860020672005</field>
+        <field name="Mouser Part Number">710-860020672005</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/860020672005?qs=0KOYDY2FL29w5cS8aahRvQ%3D%3D</field>
+      </fields>
+      <libsource lib="Capstone" part="860020672005" description="Wurth Elektronik 1uF 50 V dc Aluminium Electrolytic Capacitor, WCAP-ATG5 Series 2000h 5 (Dia.) x 11mm"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>61629E3D</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>L4940D2T12-TR</value>
+      <footprint>TO254P1542X460-3N</footprint>
+      <datasheet>http://www.st.com/web/en/resource/technical/document/datasheet/CD00000442.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">L4940D2T12-TR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/l4940d2t12-tr/stmicroelectronics</field>
+        <field name="Description">L4940D2T12-TR, Low Dropout Voltage Regulator, 1.5A, 12 V, 3-Pin D2PAK</field>
+        <field name="Height">4.6</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">L4940D2T12-TR</field>
+        <field name="Mouser Part Number">511-L4940D2T12-TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L4940D2T12-TR?qs=riAxU6JNBCuKgVOJv3%252BxRA%3D%3D</field>
+      </fields>
+      <libsource lib="Capstone" part="L4940D2T12-TR" description="L4940D2T12-TR, Low Dropout Voltage Regulator, 1.5A, 12 V, 3-Pin D2PAK"/>
+      <sheetpath names="/PowerPathing/" tstamps="/6153BBA2/"/>
+      <tstamp>617121F7</tstamp>
     </comp>
     <comp ref="J1">
       <value>691137710002</value>
@@ -335,22 +360,25 @@
     </comp>
     <comp ref="TP9">
       <value>TestPoint - Power Supply</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="BoosterPack-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/Connectors/" tstamps="/61536750/"/>
       <tstamp>61624CC1</tstamp>
     </comp>
     <comp ref="TP6">
       <value>TestPoint - Rechargeable Batteries</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="BoosterPack-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/Connectors/" tstamps="/61536750/"/>
       <tstamp>61627D05</tstamp>
     </comp>
     <comp ref="TP10">
       <value>TestPoint - Electric Strike VS</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="BoosterPack-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/Connectors/" tstamps="/61536750/"/>
       <tstamp>6162AC3A</tstamp>
     </comp>
@@ -516,92 +544,105 @@
     </comp>
     <comp ref="TP12">
       <value>Keypad 1</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="BoosterPack-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/Connectors/" tstamps="/61536750/"/>
       <tstamp>617C0D53</tstamp>
     </comp>
     <comp ref="TP13">
       <value>Keypad 2</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="BoosterPack-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/Connectors/" tstamps="/61536750/"/>
       <tstamp>617C1E13</tstamp>
     </comp>
     <comp ref="TP15">
       <value>Keypad 3</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="BoosterPack-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/Connectors/" tstamps="/61536750/"/>
       <tstamp>617C4443</tstamp>
     </comp>
     <comp ref="TP16">
       <value>Keypad 4</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="BoosterPack-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/Connectors/" tstamps="/61536750/"/>
       <tstamp>617C6A91</tstamp>
     </comp>
     <comp ref="TP17">
       <value>Keypad 5</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="BoosterPack-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/Connectors/" tstamps="/61536750/"/>
       <tstamp>617C908C</tstamp>
     </comp>
     <comp ref="TP18">
       <value>Keypad 6</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="BoosterPack-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/Connectors/" tstamps="/61536750/"/>
       <tstamp>617CB7E4</tstamp>
     </comp>
     <comp ref="TP20">
       <value>Keypad 7</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="BoosterPack-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/Connectors/" tstamps="/61536750/"/>
       <tstamp>617EBE74</tstamp>
     </comp>
     <comp ref="TP21">
       <value>Keypad 8</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="BoosterPack-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/Connectors/" tstamps="/61536750/"/>
       <tstamp>617EEBE7</tstamp>
     </comp>
     <comp ref="TP11">
       <value>TestPoint - Electric Strike Control</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="BoosterPack-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/Connectors/" tstamps="/61536750/"/>
       <tstamp>6180A68B</tstamp>
     </comp>
     <comp ref="TP7">
       <value>TestPoint - GND Rechargeable Batteries</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="BoosterPack-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/Connectors/" tstamps="/61536750/"/>
       <tstamp>61828BFF</tstamp>
     </comp>
     <comp ref="TP8">
       <value>TestPoint - GND VCC</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="BoosterPack-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/Connectors/" tstamps="/61536750/"/>
       <tstamp>6182F7F2</tstamp>
     </comp>
     <comp ref="TP14">
       <value>GND Keypad</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="BoosterPack-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/Connectors/" tstamps="/61536750/"/>
       <tstamp>61839E0C</tstamp>
     </comp>
     <comp ref="TP19">
       <value>GND Keypad</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="BoosterPack-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/Connectors/" tstamps="/61536750/"/>
       <tstamp>61841CC3</tstamp>
     </comp>
@@ -619,26 +660,53 @@
       <sheetpath names="/Connectors/" tstamps="/61536750/"/>
       <tstamp>615E5D56</tstamp>
     </comp>
-    <comp ref="R4">
-      <value>137 kiloohms</value>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_Pad</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="BoosterPack-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>617417BD</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BoosterPack-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>6174245A</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BoosterPack-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>617426E0</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BoosterPack-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/61536750/"/>
+      <tstamp>617428AC</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>137k</value>
+      <footprint>Capstone:RESAD1650W60L650D250</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BoosterPack-rescue" part="R-Device" description=""/>
       <sheetpath names="/SolenoidDriver/" tstamps="/6153F75A/"/>
       <tstamp>6157706B</tstamp>
     </comp>
     <comp ref="C10">
-      <value>0.1 uF</value>
+      <value>0.1u</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="BoosterPack-rescue" part="C-Device" description=""/>
       <sheetpath names="/SolenoidDriver/" tstamps="/6153F75A/"/>
       <tstamp>6157796B</tstamp>
-    </comp>
-    <comp ref="R3">
-      <value>205 kiloohms</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/SolenoidDriver/" tstamps="/6153F75A/"/>
-      <tstamp>61579346</tstamp>
     </comp>
     <comp ref="D12">
       <value>SD0805S020S1R0</value>
@@ -660,22 +728,25 @@
     </comp>
     <comp ref="C11">
       <value>22uF</value>
+      <footprint>Capstone:CAPPRD200W52D500H1250</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <libsource lib="BoosterPack-rescue" part="CP-Device" description=""/>
       <sheetpath names="/SolenoidDriver/" tstamps="/6153F75A/"/>
       <tstamp>6157E351</tstamp>
     </comp>
     <comp ref="D11">
       <value>Low-Current LED</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <libsource lib="BoosterPack-rescue" part="LED-Device" description=""/>
       <sheetpath names="/SolenoidDriver/" tstamps="/6153F75A/"/>
       <tstamp>615819DE</tstamp>
     </comp>
     <comp ref="R5">
-      <value>5.6 kiloohms</value>
+      <value>5.6k</value>
+      <footprint>Capstone:RESAD1650W60L650D250</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="BoosterPack-rescue" part="R-Device" description=""/>
       <sheetpath names="/SolenoidDriver/" tstamps="/6153F75A/"/>
       <tstamp>6158256B</tstamp>
     </comp>
@@ -699,10 +770,24 @@
     </comp>
     <comp ref="TP22">
       <value>GND Driver</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="BoosterPack-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/SolenoidDriver/" tstamps="/6153F75A/"/>
       <tstamp>6185655C</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>MRS25000C2053FCT00</value>
+      <footprint>RESAD1650W60L650D250</footprint>
+      <datasheet>http://www.vishay.com/docs/28724/mrs16m25.pdf</datasheet>
+      <fields>
+        <field name="Description">Vishay MRS25 Series Axial Thin Film Resistor 205k +/-1% 0.6W +/-50ppm/C</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">MRS25000C2053FCT00</field>
+      </fields>
+      <libsource lib="Capstone" part="MRS25000C2053FCT00" description="Vishay MRS25 Series Axial Thin Film Resistor 205k +/-1% 0.6W +/-50ppm/C"/>
+      <sheetpath names="/SolenoidDriver/" tstamps="/6153F75A/"/>
+      <tstamp>6161A6A8</tstamp>
     </comp>
   </components>
   <libparts>
@@ -751,6 +836,98 @@
         <pin num="9" name="Heat_Sink" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="BoosterPack-rescue" part="C-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BoosterPack-rescue" part="CP-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BoosterPack-rescue" part="D-Device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BoosterPack-rescue" part="LED-Device">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BoosterPack-rescue" part="MountingHole-Mechanical">
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole-Mechanical</field>
+      </fields>
+    </libpart>
+    <libpart lib="BoosterPack-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BoosterPack-rescue" part="TestPoint-Connector">
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Capstone" part="53048-0810">
       <description>8CKT R/A WAFER ASSY ROHS COMPLIANT: YES</description>
       <docs>https://www.molex.com/pdm_docs/sd/530480810_sd.pdf</docs>
@@ -773,6 +950,26 @@
         <pin num="6" name="6" type="passive"/>
         <pin num="7" name="7" type="passive"/>
         <pin num="8" name="8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capstone" part="860020672005">
+      <description>Wurth Elektronik 1uF 50 V dc Aluminium Electrolytic Capacitor, WCAP-ATG5 Series 2000h 5 (Dia.) x 11mm</description>
+      <docs>https://componentsearchengine.com/Datasheets/2/860020672005.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">860020672005</field>
+        <field name="Footprint">CAPPRD200W52D500H1250</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/2/860020672005.pdf</field>
+        <field name="Description">Wurth Elektronik 1uF 50 V dc Aluminium Electrolytic Capacitor, WCAP-ATG5 Series 2000h 5 (Dia.) x 11mm</field>
+        <field name="Height">12.5</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">860020672005</field>
+        <field name="Mouser Part Number">710-860020672005</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/860020672005?qs=0KOYDY2FL29w5cS8aahRvQ%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Capstone" part="DRV103U_2K5">
@@ -910,6 +1107,23 @@
         <pin num="16" name="V+_3" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Capstone" part="MRS25000C2053FCT00">
+      <description>Vishay MRS25 Series Axial Thin Film Resistor 205k +/-1% 0.6W +/-50ppm/C</description>
+      <docs>http://www.vishay.com/docs/28724/mrs16m25.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">MRS25000C2053FCT00</field>
+        <field name="Footprint">RESAD1650W60L650D250</field>
+        <field name="Datasheet">http://www.vishay.com/docs/28724/mrs16m25.pdf</field>
+        <field name="Description">Vishay MRS25 Series Axial Thin Film Resistor 205k +/-1% 0.6W +/-50ppm/C</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">MRS25000C2053FCT00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Capstone" part="PJ-002A">
       <description>CONN PWR JACK 2X5.5MM SOLDER</description>
       <docs>https://www.cui.com/product/resource/digikeypdf/pj-002a.pdf</docs>
@@ -1035,256 +1249,161 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="TestPoint">
-      <description>test point</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Pin*</fp>
-        <fp>Test*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">TP</field>
-        <field name="Value">TestPoint</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="C">
-      <description>Unpolarized capacitor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>C_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="CP">
-      <description>Polarized capacitor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>CP_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">CP</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="D">
-      <description>Diode</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>TO-???*</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="LED">
-      <description>Light emitting diode</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>LED*</fp>
-        <fp>LED_SMD:*</fp>
-        <fp>LED_THT:*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">LED</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="R">
-      <description>Resistor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>R_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
     <library logical="BoosterPack-rescue">
-      <uri>C:\Users\chros\Documents\ECE Capstone\Hardware/BoosterPack-rescue.lib</uri>
+      <uri>C:\Users\student\Documents\capstone\repositories\Hardware/BoosterPack-rescue.lib</uri>
     </library>
     <library logical="Capstone">
-      <uri>C:\Users\chros\Documents\ECE Capstone\Hardware/Libraries/SamacSys_Parts.lib</uri>
-    </library>
-    <library logical="Connector">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
-    </library>
-    <library logical="Device">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+      <uri>C:\Users\student\Documents\capstone\repositories\Hardware/Libraries/SamacSys_Parts.lib</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="/Connectors/VS">
-      <node ref="D12" pin="1"/>
-      <node ref="IC5" pin="6"/>
-      <node ref="TP2" pin="1"/>
       <node ref="IC2" pin="3"/>
       <node ref="C7" pin="1"/>
+      <node ref="TP2" pin="1"/>
       <node ref="J3" pin="1"/>
       <node ref="TP10" pin="1"/>
-      <node ref="C11" pin="2"/>
       <node ref="R5" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="D12" pin="1"/>
+      <node ref="IC5" pin="6"/>
     </net>
     <net code="2" name="/Connectors/Solenoid_Driver_Input">
       <node ref="IC5" pin="8"/>
       <node ref="J2" pin="8"/>
     </net>
     <net code="3" name="/Connectors/Control">
-      <node ref="IC5" pin="5"/>
-      <node ref="TP11" pin="1"/>
       <node ref="J3" pin="2"/>
+      <node ref="TP11" pin="1"/>
       <node ref="D12" pin="2"/>
+      <node ref="IC5" pin="5"/>
     </net>
     <net code="4" name="/Connectors/Rechargeable_Batteries">
-      <node ref="Q1" pin="1"/>
-      <node ref="IC1" pin="3"/>
-      <node ref="IC1" pin="4"/>
-      <node ref="Q1" pin="3"/>
       <node ref="Q1" pin="2"/>
       <node ref="TP6" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="Q1" pin="3"/>
       <node ref="R1" pin="2"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="IC1" pin="3"/>
       <node ref="J1" pin="1"/>
     </net>
     <net code="5" name="/Connectors/5V_Reg">
-      <node ref="L1" pin="2"/>
-      <node ref="TP5" pin="1"/>
-      <node ref="J2" pin="4"/>
-      <node ref="C8" pin="1"/>
-      <node ref="IC3" pin="9"/>
-      <node ref="C9" pin="1"/>
       <node ref="J2" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="C9" pin="1"/>
+      <node ref="IC3" pin="9"/>
+      <node ref="C8" pin="1"/>
+      <node ref="TP5" pin="1"/>
     </net>
     <net code="6" name="/Connectors/VCC">
       <node ref="TP9" pin="1"/>
-      <node ref="IC4" pin="1"/>
       <node ref="D1" pin="2"/>
+      <node ref="IC4" pin="1"/>
     </net>
     <net code="7" name="GND">
-      <node ref="J2" pin="39"/>
-      <node ref="IC1" pin="6"/>
-      <node ref="IC1" pin="8"/>
-      <node ref="C1" pin="1"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C9" pin="2"/>
-      <node ref="IC2" pin="4"/>
-      <node ref="C3" pin="2"/>
-      <node ref="D8" pin="2"/>
-      <node ref="D7" pin="2"/>
-      <node ref="D6" pin="2"/>
       <node ref="C5" pin="2"/>
-      <node ref="D2" pin="2"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="C2" pin="2"/>
       <node ref="IC4" pin="3"/>
-      <node ref="C11" pin="1"/>
-      <node ref="J1" pin="2"/>
-      <node ref="J2" pin="34"/>
+      <node ref="IC3" pin="11"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="IC3" pin="10"/>
+      <node ref="C7" pin="2"/>
       <node ref="IC4" pin="2"/>
-      <node ref="IC5" pin="4"/>
+      <node ref="C9" pin="2"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="TP7" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C11" pin="1"/>
       <node ref="R4" pin="2"/>
       <node ref="C10" pin="2"/>
-      <node ref="C6" pin="1"/>
-      <node ref="C7" pin="2"/>
-      <node ref="R3" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="D5" pin="2"/>
-      <node ref="J2" pin="6"/>
-      <node ref="J2" pin="9"/>
-      <node ref="D9" pin="2"/>
-      <node ref="D10" pin="2"/>
-      <node ref="J2" pin="25"/>
-      <node ref="J2" pin="20"/>
-      <node ref="J2" pin="30"/>
-      <node ref="J2" pin="14"/>
-      <node ref="TP7" pin="1"/>
+      <node ref="IC5" pin="4"/>
+      <node ref="TP22" pin="1"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="IC2" pin="4"/>
       <node ref="D4" pin="2"/>
-      <node ref="TP14" pin="1"/>
       <node ref="D3" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="TP19" pin="1"/>
+      <node ref="TP14" pin="1"/>
       <node ref="TP8" pin="1"/>
+      <node ref="J2" pin="14"/>
+      <node ref="J2" pin="20"/>
+      <node ref="J2" pin="25"/>
+      <node ref="J2" pin="9"/>
+      <node ref="D10" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="J2" pin="34"/>
+      <node ref="J2" pin="6"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="J2" pin="39"/>
+      <node ref="D8" pin="2"/>
+      <node ref="J2" pin="30"/>
     </net>
-    <net code="8" name="Net-(J2-Pad31)">
+    <net code="8" name="Net-(J2-Pad29)">
+      <node ref="J2" pin="29"/>
+    </net>
+    <net code="9" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="10" name="Net-(J2-Pad31)">
       <node ref="J2" pin="31"/>
     </net>
-    <net code="9" name="Net-(J2-Pad7)">
-      <node ref="J2" pin="7"/>
+    <net code="11" name="Net-(J2-Pad32)">
+      <node ref="J2" pin="32"/>
     </net>
-    <net code="10" name="Net-(J2-Pad5)">
-      <node ref="J2" pin="5"/>
-    </net>
-    <net code="11" name="Net-(J2-Pad40)">
-      <node ref="J2" pin="40"/>
-    </net>
-    <net code="12" name="Net-(J2-Pad38)">
-      <node ref="J2" pin="38"/>
+    <net code="12" name="Net-(J2-Pad33)">
+      <node ref="J2" pin="33"/>
     </net>
     <net code="13" name="Net-(J2-Pad35)">
       <node ref="J2" pin="35"/>
     </net>
-    <net code="14" name="Net-(J2-Pad33)">
-      <node ref="J2" pin="33"/>
+    <net code="14" name="Net-(J2-Pad7)">
+      <node ref="J2" pin="7"/>
     </net>
-    <net code="15" name="Net-(J2-Pad32)">
-      <node ref="J2" pin="32"/>
+    <net code="15" name="Net-(J2-Pad38)">
+      <node ref="J2" pin="38"/>
     </net>
-    <net code="16" name="Net-(J2-Pad16)">
-      <node ref="J2" pin="16"/>
+    <net code="16" name="Net-(J2-Pad40)">
+      <node ref="J2" pin="40"/>
     </net>
-    <net code="17" name="Net-(J2-Pad3)">
-      <node ref="J2" pin="3"/>
+    <net code="17" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5"/>
     </net>
-    <net code="18" name="Net-(J2-Pad29)">
-      <node ref="J2" pin="29"/>
-    </net>
-    <net code="19" name="Net-(J2-Pad28)">
-      <node ref="J2" pin="28"/>
-    </net>
-    <net code="20" name="Net-(J2-Pad27)">
+    <net code="18" name="Net-(J2-Pad27)">
       <node ref="J2" pin="27"/>
     </net>
-    <net code="21" name="Net-(J2-Pad26)">
+    <net code="19" name="Net-(J2-Pad26)">
       <node ref="J2" pin="26"/>
     </net>
-    <net code="22" name="Net-(J2-Pad24)">
+    <net code="20" name="Net-(J2-Pad24)">
       <node ref="J2" pin="24"/>
     </net>
-    <net code="23" name="Net-(J2-Pad22)">
+    <net code="21" name="Net-(J2-Pad22)">
       <node ref="J2" pin="22"/>
     </net>
-    <net code="24" name="Net-(J2-Pad18)">
+    <net code="22" name="Net-(J2-Pad18)">
       <node ref="J2" pin="18"/>
     </net>
-    <net code="25" name="Net-(J2-Pad17)">
+    <net code="23" name="Net-(J2-Pad17)">
       <node ref="J2" pin="17"/>
+    </net>
+    <net code="24" name="Net-(J2-Pad16)">
+      <node ref="J2" pin="16"/>
+    </net>
+    <net code="25" name="Net-(J2-Pad28)">
+      <node ref="J2" pin="28"/>
     </net>
     <net code="26" name="Net-(J2-Pad12)">
       <node ref="J2" pin="12"/>
@@ -1295,149 +1414,131 @@
     <net code="28" name="Net-(J2-Pad1)">
       <node ref="J2" pin="1"/>
     </net>
-    <net code="29" name="Net-(D10-Pad1)">
-      <node ref="J2" pin="11"/>
-      <node ref="D10" pin="1"/>
-      <node ref="TP21" pin="1"/>
-      <node ref="J4" pin="8"/>
-    </net>
-    <net code="30" name="Net-(D9-Pad1)">
-      <node ref="TP20" pin="1"/>
+    <net code="29" name="Net-(D9-Pad1)">
       <node ref="J4" pin="7"/>
       <node ref="J2" pin="13"/>
+      <node ref="TP20" pin="1"/>
       <node ref="D9" pin="1"/>
     </net>
-    <net code="31" name="Net-(TP19-Pad1)">
-      <node ref="TP19" pin="1"/>
+    <net code="30" name="Net-(D10-Pad1)">
+      <node ref="TP21" pin="1"/>
+      <node ref="J2" pin="11"/>
+      <node ref="D10" pin="1"/>
+      <node ref="J4" pin="8"/>
     </net>
-    <net code="32" name="Net-(D5-Pad1)">
-      <node ref="J2" pin="23"/>
-      <node ref="D5" pin="1"/>
-      <node ref="J4" pin="3"/>
-      <node ref="TP15" pin="1"/>
-    </net>
-    <net code="33" name="Net-(D4-Pad1)">
-      <node ref="D4" pin="1"/>
+    <net code="32" name="Net-(D4-Pad1)">
       <node ref="TP13" pin="1"/>
-      <node ref="J4" pin="2"/>
+      <node ref="D4" pin="1"/>
       <node ref="J2" pin="37"/>
+      <node ref="J4" pin="2"/>
     </net>
-    <net code="34" name="Net-(D3-Pad1)">
+    <net code="33" name="Net-(D3-Pad1)">
       <node ref="D3" pin="1"/>
-      <node ref="J2" pin="36"/>
       <node ref="TP12" pin="1"/>
+      <node ref="J2" pin="36"/>
       <node ref="J4" pin="1"/>
     </net>
-    <net code="40" name="Net-(D8-Pad1)">
+    <net code="38" name="Net-(D8-Pad1)">
       <node ref="J2" pin="15"/>
+      <node ref="D8" pin="1"/>
       <node ref="TP18" pin="1"/>
       <node ref="J4" pin="6"/>
-      <node ref="D8" pin="1"/>
     </net>
-    <net code="41" name="Net-(D7-Pad1)">
+    <net code="39" name="Net-(D7-Pad1)">
       <node ref="J2" pin="19"/>
+      <node ref="J4" pin="5"/>
       <node ref="TP17" pin="1"/>
       <node ref="D7" pin="1"/>
-      <node ref="J4" pin="5"/>
     </net>
-    <net code="42" name="Net-(D6-Pad1)">
+    <net code="40" name="Net-(D6-Pad1)">
       <node ref="D6" pin="1"/>
       <node ref="J2" pin="21"/>
-      <node ref="TP16" pin="1"/>
       <node ref="J4" pin="4"/>
+      <node ref="TP16" pin="1"/>
+    </net>
+    <net code="41" name="Net-(D5-Pad1)">
+      <node ref="J2" pin="23"/>
+      <node ref="J4" pin="3"/>
+      <node ref="D5" pin="1"/>
+      <node ref="TP15" pin="1"/>
+    </net>
+    <net code="42" name="Net-(C1-Pad2)">
+      <node ref="IC1" pin="7"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="C1" pin="2"/>
     </net>
     <net code="43" name="Net-(D2-Pad1)">
       <node ref="L1" pin="1"/>
-      <node ref="D2" pin="1"/>
-      <node ref="IC3" pin="12"/>
       <node ref="IC3" pin="13"/>
+      <node ref="IC3" pin="12"/>
       <node ref="IC3" pin="14"/>
+      <node ref="D2" pin="1"/>
     </net>
-    <net code="44" name="Net-(C1-Pad2)">
-      <node ref="C1" pin="2"/>
-      <node ref="IC1" pin="7"/>
-      <node ref="IC1" pin="5"/>
+    <net code="44" name="Net-(C2-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="IC2" pin="1"/>
+      <node ref="IC3" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="Q1" pin="8"/>
+      <node ref="Q1" pin="9"/>
+      <node ref="Q1" pin="7"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="IC3" pin="2"/>
+      <node ref="IC3" pin="16"/>
+      <node ref="IC3" pin="15"/>
+      <node ref="Q1" pin="6"/>
+      <node ref="Q1" pin="5"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R1" pin="1"/>
     </net>
-    <net code="45" name="Net-(IC1-Pad2)">
-      <node ref="Q1" pin="4"/>
-      <node ref="IC1" pin="2"/>
+    <net code="45" name="Net-(IC3-Pad6)">
+      <node ref="IC3" pin="6"/>
     </net>
-    <net code="46" name="Net-(C5-Pad1)">
+    <net code="46" name="Net-(IC3-Pad5)">
+      <node ref="IC3" pin="5"/>
+    </net>
+    <net code="47" name="Net-(IC3-Pad4)">
+      <node ref="IC3" pin="4"/>
+    </net>
+    <net code="48" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="IC3" pin="3"/>
+    </net>
+    <net code="49" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2"/>
+      <node ref="IC3" pin="8"/>
+    </net>
+    <net code="50" name="Net-(C5-Pad1)">
       <node ref="C5" pin="1"/>
       <node ref="IC3" pin="7"/>
       <node ref="R2" pin="1"/>
     </net>
-    <net code="47" name="Net-(IC3-Pad6)">
-      <node ref="IC3" pin="6"/>
+    <net code="55" name="Net-(IC1-Pad2)">
+      <node ref="Q1" pin="4"/>
+      <node ref="IC1" pin="2"/>
     </net>
-    <net code="48" name="Net-(IC3-Pad5)">
-      <node ref="IC3" pin="5"/>
+    <net code="56" name="Net-(C10-Pad1)">
+      <node ref="IC5" pin="2"/>
+      <node ref="C10" pin="1"/>
     </net>
-    <net code="49" name="Net-(IC3-Pad4)">
-      <node ref="IC3" pin="4"/>
+    <net code="57" name="Net-(IC5-Pad1)">
+      <node ref="IC5" pin="1"/>
+      <node ref="R4" pin="1"/>
     </net>
-    <net code="50" name="Net-(C3-Pad1)">
-      <node ref="IC3" pin="3"/>
-      <node ref="C3" pin="1"/>
+    <net code="58" name="Net-(IC5-Pad3)">
+      <node ref="IC5" pin="3"/>
+      <node ref="R3" pin="2"/>
     </net>
-    <net code="51" name="Net-(IC3-Pad10)">
-      <node ref="IC3" pin="11"/>
-      <node ref="IC3" pin="10"/>
-    </net>
-    <net code="52" name="Net-(C8-Pad2)">
-      <node ref="IC3" pin="8"/>
-      <node ref="C8" pin="2"/>
-    </net>
-    <net code="57" name="Net-(TP3-Pad1)">
-      <node ref="TP3" pin="1"/>
-    </net>
-    <net code="58" name="Net-(TP4-Pad1)">
-      <node ref="TP4" pin="1"/>
-    </net>
-    <net code="59" name="Net-(C2-Pad1)">
-      <node ref="R1" pin="1"/>
-      <node ref="IC3" pin="2"/>
-      <node ref="IC3" pin="16"/>
-      <node ref="C2" pin="1"/>
-      <node ref="IC3" pin="15"/>
-      <node ref="D1" pin="1"/>
-      <node ref="R2" pin="2"/>
-      <node ref="IC3" pin="1"/>
-      <node ref="IC1" pin="1"/>
-      <node ref="C6" pin="2"/>
-      <node ref="TP1" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="IC2" pin="1"/>
-      <node ref="Q1" pin="5"/>
-      <node ref="Q1" pin="6"/>
-      <node ref="Q1" pin="7"/>
-      <node ref="Q1" pin="8"/>
-    </net>
-    <net code="60" name="Net-(Q1-Pad9)">
-      <node ref="Q1" pin="9"/>
-    </net>
-    <net code="61" name="Net-(D11-Pad1)">
+    <net code="60" name="Net-(D11-Pad1)">
       <node ref="D11" pin="1"/>
       <node ref="IC5" pin="7"/>
     </net>
-    <net code="63" name="Net-(TP22-Pad1)">
-      <node ref="TP22" pin="1"/>
-    </net>
-    <net code="64" name="Net-(C10-Pad1)">
-      <node ref="C10" pin="1"/>
-      <node ref="IC5" pin="2"/>
-    </net>
-    <net code="65" name="Net-(IC5-Pad1)">
-      <node ref="R4" pin="1"/>
-      <node ref="IC5" pin="1"/>
-    </net>
-    <net code="66" name="Net-(IC5-Pad3)">
-      <node ref="R3" pin="1"/>
-      <node ref="IC5" pin="3"/>
-    </net>
-    <net code="67" name="Net-(D11-Pad2)">
-      <node ref="D11" pin="2"/>
+    <net code="61" name="Net-(D11-Pad2)">
       <node ref="R5" pin="1"/>
+      <node ref="D11" pin="2"/>
     </net>
   </nets>
 </export>
